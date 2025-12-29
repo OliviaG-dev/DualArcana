@@ -1,10 +1,10 @@
 .home {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: #f5f5f5;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 .background-image {
@@ -34,12 +34,9 @@
   flex: 1;
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem 2rem;
+  padding: 2rem 2rem 3rem;
   width: 100%;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 /* Hero Section */
@@ -104,6 +101,136 @@
   border-left: 2px solid rgba(255, 255, 255, 0.15);
 }
 
+/* Form */
+.arcana-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.875rem;
+  color: #d0d0d0;
+  font-weight: 300;
+  text-align: left;
+}
+
+.form-group input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 80px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.form-group input::-webkit-inner-spin-button,
+.form-group input::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.calculate-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.calculate-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.calculate-button:active {
+  transform: translateY(1px);
+}
+
+/* Results */
+.result-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.arcane-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  min-width: 200px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arcane-label {
+  font-size: 0.75rem;
+  color: #b0b0b0;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.arcane-image {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.arcane-number {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #f5f5f5;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.arcane-name {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #e0e0e0;
+  line-height: 1.4;
+}
+
+.arcane-separator {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 300;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .main-content {
@@ -120,5 +247,46 @@
 
   .section-text.emphasis {
     padding-left: 1rem;
+  }
+
+  .arcana-form {
+    gap: 0.75rem;
+  }
+
+  .form-group input {
+    width: 70px;
+    font-size: 0.9375rem;
+  }
+
+  .calculate-button {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.9375rem;
+  }
+
+  .result-container {
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .arcane-card {
+    padding: 1.25rem 1.5rem;
+    min-width: 180px;
+  }
+
+  .arcane-image {
+    width: 100px;
+    margin-bottom: 0.75rem;
+  }
+
+  .arcane-number {
+    font-size: 1.75rem;
+  }
+
+  .arcane-name {
+    font-size: 0.875rem;
+  }
+
+  .arcane-separator {
+    font-size: 1.5rem;
   }
 }

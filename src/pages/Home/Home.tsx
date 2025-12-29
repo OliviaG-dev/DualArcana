@@ -1,7 +1,32 @@
+import { useState } from "react";
 import "./Home.css";
 import backgroundImage from "../../assets/background.png";
+import { getDualArcana } from "../../domain";
+
+/**
+ * Retourne le chemin de l'image de l'arcane
+ * @param number - Le numéro de l'arcane (1-22)
+ * @returns Le chemin vers l'image (ex: /arcanes/01.png)
+ */
+const getArcaneImagePath = (number: number): string => {
+  const formattedNumber = number.toString().padStart(2, "0");
+  return `/arcanes/${formattedNumber}.png`;
+};
 
 function Home() {
+  const [day, setDay] = useState<number>(1);
+  const [month, setMonth] = useState<number>(1);
+  const [year, setYear] = useState<number>(new Date().getFullYear());
+  const [result, setResult] = useState<ReturnType<typeof getDualArcana> | null>(
+    null
+  );
+
+  const handleCalculate = (e: React.FormEvent) => {
+    e.preventDefault();
+    const calculated = getDualArcana(day, month, year);
+    setResult(calculated);
+  };
+
   return (
     <div className="home">
       <div className="background-overlay" />
@@ -22,15 +47,73 @@ function Home() {
         </section>
 
         <section className="section">
-          <p className="section-text">
-            DualArcana associe l'arcane majeur de l'année en cours à ton arcane
-            personnel. En croisant ces deux énergies, elle propose une lecture
-            symbolique de ton chemin.
-          </p>
-          <p className="section-text emphasis">
-            Le résultat n'est pas une prédiction, mais une clé de lecture : un
-            outil d'introspection, de compréhension et d'alignement.
-          </p>
+          <form onSubmit={handleCalculate} className="arcana-form">
+            <div className="form-group">
+              <label htmlFor="day">Jour</label>
+              <input
+                type="number"
+                id="day"
+                min="1"
+                max="31"
+                value={day}
+                onChange={(e) => setDay(Number(e.target.value))}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="month">Mois</label>
+              <input
+                type="number"
+                id="month"
+                min="1"
+                max="12"
+                value={month}
+                onChange={(e) => setMonth(Number(e.target.value))}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="year">Année</label>
+              <input
+                type="number"
+                id="year"
+                min="1900"
+                max="2100"
+                value={year}
+                onChange={(e) => setYear(Number(e.target.value))}
+                required
+              />
+            </div>
+            <button type="submit" className="calculate-button">
+              Calculer
+            </button>
+          </form>
+
+          {result && (
+            <div className="result-container">
+              <div className="arcane-card">
+                <div className="arcane-label">Arcane de l'année</div>
+                <img
+                  src={getArcaneImagePath(result.year.number)}
+                  alt={result.year.name}
+                  className="arcane-image"
+                />
+                <div className="arcane-number">{result.year.number}</div>
+                <div className="arcane-name">{result.year.name}</div>
+              </div>
+              <div className="arcane-separator">×</div>
+              <div className="arcane-card">
+                <div className="arcane-label">Arcane personnel</div>
+                <img
+                  src={getArcaneImagePath(result.personal.number)}
+                  alt={result.personal.name}
+                  className="arcane-image"
+                />
+                <div className="arcane-number">{result.personal.number}</div>
+                <div className="arcane-name">{result.personal.name}</div>
+              </div>
+            </div>
+          )}
         </section>
       </main>
     </div>
