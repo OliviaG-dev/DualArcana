@@ -1,0 +1,134 @@
+[
+    {
+      "number": 1,
+      "name": "Le Bateleur",
+      "keywords": ["nouveau départ", "initiative personnelle", "potentiel"],
+      "description": "Année personnelle de commencement. Tu entres dans un nouveau cycle où tout est possible, à condition d’oser faire le premier pas. Cette période invite à l’expérimentation, à l’apprentissage et à la prise d’initiative, même sans garanties."
+    },
+    {
+      "number": 2,
+      "name": "La Papesse",
+      "keywords": ["intériorité", "intuition", "patience"],
+      "description": "Année personnelle tournée vers l’introspection. Tu es invitée à ralentir, à observer et à écouter ton intuition. Les réponses viennent moins de l’action que de la compréhension intérieure et du temps accordé à toi-même."
+    },
+    {
+      "number": 3,
+      "name": "L’Impératrice",
+      "keywords": ["créativité", "expression", "épanouissement"],
+      "description": "Année personnelle d’expression et de croissance. Tes idées, tes émotions et tes projets cherchent à s’exprimer. C’est une période favorable à la création, à la communication et à l’affirmation de soi."
+    },
+    {
+      "number": 4,
+      "name": "L’Empereur",
+      "keywords": ["structure", "stabilité", "responsabilité"],
+      "description": "Année personnelle de structuration. Tu es appelée à poser des bases solides, à organiser ta vie et à assumer pleinement tes responsabilités. La stabilité se construit par des choix clairs et assumés."
+    },
+    {
+      "number": 5,
+      "name": "Le Pape",
+      "keywords": ["valeurs", "apprentissage", "guidance"],
+      "description": "Année personnelle de réflexion sur le sens et les valeurs. Tu peux ressentir le besoin d’apprendre, de transmettre ou de chercher des repères solides. Les échanges et les conseils jouent un rôle important."
+    },
+    {
+      "number": 6,
+      "name": "L’Amoureux",
+      "keywords": ["choix personnels", "relations", "engagement"],
+      "description": "Année personnelle marquée par des choix importants. Les relations et les engagements prennent une place centrale. Tu es invitée à choisir ce qui est aligné avec ton cœur et tes valeurs profondes."
+    },
+    {
+      "number": 7,
+      "name": "Le Chariot",
+      "keywords": ["détermination", "avancée", "affirmation"],
+      "description": "Année personnelle de mouvement et de conquête. Tu ressens un élan pour avancer, prendre ta place et aller vers tes objectifs. La réussite dépend de ta capacité à garder le cap."
+    },
+    {
+      "number": 8,
+      "name": "La Justice",
+      "keywords": ["équilibre personnel", "vérité", "responsabilité"],
+      "description": "Année personnelle de clarification. Tu es invitée à faire des choix justes, à assumer tes décisions et à rétablir l’équilibre dans ta vie. La lucidité est essentielle."
+    },
+    {
+      "number": 9,
+      "name": "L’Hermite",
+      "keywords": ["bilan", "retrait", "sagesse intérieure"],
+      "description": "Année personnelle de recul et de réflexion. Tu peux ressentir le besoin de solitude ou de lenteur pour faire le point. Cette période favorise la sagesse et la compréhension profonde."
+    },
+    {
+      "number": 10,
+      "name": "La Roue de Fortune",
+      "keywords": ["changement personnel", "cycle", "adaptation"],
+      "description": "Année personnelle de changements. Des événements imprévus peuvent modifier ta trajectoire. Cette période demande souplesse et confiance dans le mouvement naturel de la vie."
+    },
+    {
+      "number": 11,
+      "name": "La Force",
+      "keywords": ["courage intérieur", "maîtrise émotionnelle", "confiance"],
+      "description": "Année personnelle de dépassement de soi. Tu es invitée à affronter les défis avec calme, patience et confiance. La force véritable vient de l’équilibre intérieur."
+    },
+    {
+      "number": 12,
+      "name": "Le Pendu",
+      "keywords": ["pause", "lâcher-prise", "nouvelle perspective"],
+      "description": "Année personnelle de suspension. Certaines situations demandent du temps ou un changement de regard. Le lâcher-prise permet une compréhension plus profonde avant d’avancer."
+    },
+    {
+      "number": 13,
+      "name": "L’Arcane sans Nom",
+      "keywords": ["transformation personnelle", "fin de cycle", "renaissance"],
+      "description": "Année personnelle de transformation profonde. Tu es amenée à laisser derrière toi ce qui n’a plus de sens afin de faire place à un renouveau nécessaire."
+    },
+    {
+      "number": 14,
+      "name": "Tempérance",
+      "keywords": ["équilibre intérieur", "harmonie", "adaptation"],
+      "description": "Année personnelle d’harmonisation. Tu apprends à ajuster, à doser et à avancer avec douceur. Les extrêmes s’apaisent au profit d’un meilleur équilibre."
+    },
+    {
+      "number": 15,
+      "name": "Le Diable",
+      "keywords": ["attachements", "désirs", "libération personnelle"],
+      "description": "Année personnelle de confrontation avec les dépendances et les schémas répétitifs. Cette période invite à reprendre conscience de ta liberté et à te détacher de ce qui te limite."
+    },
+    {
+      "number": 16,
+      "name": "La Maison Dieu",
+      "keywords": ["rupture personnelle", "révélation", "libération"],
+      "description": "Année personnelle de bouleversements. Des changements soudains peuvent remettre en question certaines certitudes, mais ils ouvrent la voie à une reconstruction plus authentique."
+    },
+    {
+      "number": 17,
+      "name": "L’Étoile",
+      "keywords": ["espoir personnel", "guérison", "confiance"],
+      "description": "Année personnelle de douceur et de renouveau. Tu retrouves foi en toi et en l’avenir. Cette période favorise la guérison émotionnelle et l’inspiration."
+    },
+    {
+      "number": 18,
+      "name": "La Lune",
+      "keywords": ["émotions profondes", "intuition", "sensibilité"],
+      "description": "Année personnelle très sensible. Les émotions et l’inconscient prennent de l’importance. Il est essentiel d’écouter ton intuition et d’accueillir ce qui remonte."
+    },
+    {
+      "number": 19,
+      "name": "Le Soleil",
+      "keywords": ["épanouissement personnel", "joie", "réussite"],
+      "description": "Année personnelle lumineuse. Elle apporte confiance, vitalité et reconnaissance. Les relations s’éclaircissent et tu peux pleinement rayonner."
+    },
+    {
+      "number": 20,
+      "name": "Le Jugement",
+      "keywords": ["réveil personnel", "prise de conscience", "renouveau"],
+      "description": "Année personnelle d’appel intérieur. Tu prends conscience de ce qui doit changer et tu es invitée à assumer une nouvelle version de toi-même."
+    },
+    {
+      "number": 21,
+      "name": "Le Monde",
+      "keywords": ["accomplissement personnel", "aboutissement", "complétude"],
+      "description": "Année personnelle d’aboutissement. Un cycle se termine avec un sentiment de cohérence et de réalisation. Tu récoltes le fruit de ton chemin parcouru."
+    },
+    {
+      "number": 22,
+      "name": "Le Mat",
+      "keywords": ["liberté personnelle", "nouveau cycle", "exploration"],
+      "description": "Année personnelle hors normes. Elle invite à lâcher les cadres habituels, à suivre ton intuition et à explorer de nouvelles directions sans certitudes, mais avec confiance."
+    }
+  ]

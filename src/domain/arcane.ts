@@ -26,3 +26,4 @@ export const MAJOR_ARCANES: Record<number, string> = {
   22: "Le Mat",
 };
 
+

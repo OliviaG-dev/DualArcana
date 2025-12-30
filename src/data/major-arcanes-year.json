@@ -1,0 +1,134 @@
+[
+    {
+      "number": 1,
+      "name": "Le Bateleur",
+      "keywords": ["début", "initiative", "potentiel", "création"],
+      "description": "Année de commencement et d’élan. Tout n’est pas encore défini, mais le potentiel est là. C’est le moment d’oser, de tester, d’apprendre en faisant. Cette année invite à prendre des initiatives, même imparfaites, car l’expérience compte plus que le résultat immédiat."
+    },
+    {
+      "number": 2,
+      "name": "La Papesse",
+      "keywords": ["intuition", "introspection", "savoir intérieur"],
+      "description": "Année tournée vers l’introspection et l’écoute intérieure. Les réponses ne viennent pas toujours de l’extérieur, mais du temps que l’on s’accorde pour observer, comprendre et ressentir. C’est une période idéale pour apprendre, réfléchir et préparer la suite en silence."
+    },
+    {
+      "number": 3,
+      "name": "L’Impératrice",
+      "keywords": ["créativité", "expression", "croissance"],
+      "description": "Année de créativité, d’expression et de croissance. Les idées prennent forme, les projets s’épanouissent et la communication est favorisée. Cette énergie invite à partager, créer et nourrir ce qui te tient à cœur."
+    },
+    {
+      "number": 4,
+      "name": "L’Empereur",
+      "keywords": ["structure", "stabilité", "responsabilité"],
+      "description": "Année de structure et de consolidation. Elle demande de poser des bases solides, de prendre des responsabilités et d’organiser sa vie avec clarté. C’est un temps pour construire durablement."
+    },
+    {
+      "number": 5,
+      "name": "Le Pape",
+      "keywords": ["transmission", "valeurs", "enseignement"],
+      "description": "Année de transmission et de sens. Elle invite à se reconnecter à ses valeurs, à apprendre auprès des autres ou à devenir soi-même une source de conseil et de guidance."
+    },
+    {
+      "number": 6,
+      "name": "L’Amoureux",
+      "keywords": ["choix", "relation", "engagement"],
+      "description": "Année de choix importants. Elle met en lumière les relations, les engagements et les décisions qui demandent d’aligner le cœur et la raison. Ce qui est choisi avec sincérité prend de l’importance."
+    },
+    {
+      "number": 7,
+      "name": "Le Chariot",
+      "keywords": ["action", "mouvement", "réussite"],
+      "description": "Année de mouvement et de progression. Elle favorise l’action, la détermination et l’avancée vers des objectifs clairs. La réussite dépend de la direction choisie."
+    },
+    {
+      "number": 8,
+      "name": "La Justice",
+      "keywords": ["équilibre", "vérité", "responsabilité"],
+      "description": "Année d’équilibre et de lucidité. Elle demande de faire des choix justes, d’assumer les conséquences de ses actes et de rétablir l’harmonie là où c’est nécessaire."
+    },
+    {
+      "number": 9,
+      "name": "L’Hermite",
+      "keywords": ["bilan", "sagesse", "réflexion"],
+      "description": "Année de ralentissement volontaire. Elle invite à prendre du recul, à faire le point et à chercher des réponses profondes. Une période propice à la maturation intérieure."
+    },
+    {
+      "number": 10,
+      "name": "La Roue de Fortune",
+      "keywords": ["changement", "cycle", "opportunité"],
+      "description": "Année de changements et de tournants. Les situations évoluent parfois rapidement et de manière imprévisible. Cette énergie rappelle que tout est cyclique et qu’il faut savoir s’adapter."
+    },
+    {
+      "number": 11,
+      "name": "La Force",
+      "keywords": ["courage", "maîtrise", "confiance"],
+      "description": "Année de maîtrise intérieure. Elle invite à faire preuve de patience, de courage et de douceur face aux défis. La véritable force vient de l’équilibre émotionnel."
+    },
+    {
+      "number": 12,
+      "name": "Le Pendu",
+      "keywords": ["pause", "lâcher-prise", "nouvelle vision"],
+      "description": "Année de pause et de changement de perspective. Certaines situations semblent bloquées, mais cette immobilité permet de voir les choses autrement avant d’avancer."
+    },
+    {
+      "number": 13,
+      "name": "L’Arcane sans Nom",
+      "keywords": ["transformation", "fin", "renaissance"],
+      "description": "Année de transformation profonde. Elle marque la fin de ce qui n’a plus lieu d’être afin de laisser place à un renouveau. Le changement est nécessaire pour évoluer."
+    },
+    {
+      "number": 14,
+      "name": "Tempérance",
+      "keywords": ["harmonie", "équilibre", "fluidité"],
+      "description": "Année d’harmonie et d’ajustement. Elle favorise la douceur, la coopération et la progression par petites étapes. Une période idéale pour retrouver l’équilibre."
+    },
+    {
+      "number": 15,
+      "name": "Le Diable",
+      "keywords": ["attachement", "désir", "libération"],
+      "description": "Année de confrontation avec les dépendances et les excès. Elle invite à prendre conscience de ce qui limite la liberté et à reprendre le pouvoir sur ses choix."
+    },
+    {
+      "number": 16,
+      "name": "La Maison Dieu",
+      "keywords": ["rupture", "révélation", "libération"],
+      "description": "Année de bouleversements soudains. Les structures fragiles s’effondrent pour permettre une reconstruction plus saine et plus authentique."
+    },
+    {
+      "number": 17,
+      "name": "L’Étoile",
+      "keywords": ["espoir", "inspiration", "renouveau"],
+      "description": "Année d’espoir et de douceur. Elle apporte une énergie de guérison, de confiance et de renouveau après une période plus difficile."
+    },
+    {
+      "number": 18,
+      "name": "La Lune",
+      "keywords": ["émotions", "intuition", "sensibilité"],
+      "description": "Année émotionnelle et intuitive. Elle invite à écouter ses ressentis, même lorsqu’ils sont flous, afin de mieux se comprendre."
+    },
+    {
+      "number": 19,
+      "name": "Le Soleil",
+      "keywords": ["joie", "succès", "épanouissement"],
+      "description": "Année de clarté et d’épanouissement. Elle favorise la joie, la réussite et les relations sincères. Les efforts passés portent leurs fruits."
+    },
+    {
+      "number": 20,
+      "name": "Le Jugement",
+      "keywords": ["réveil", "décision", "renaissance"],
+      "description": "Année de prise de conscience et de décisions importantes. Elle marque un appel intérieur à changer de direction ou à assumer pleinement qui l’on est."
+    },
+    {
+      "number": 21,
+      "name": "Le Monde",
+      "keywords": ["accomplissement", "réalisation", "complétude"],
+      "description": "Année d’accomplissement et de réussite globale. Elle symbolise la fin d’un cycle et le sentiment d’être à sa place."
+    },
+    {
+      "number": 22,
+      "name": "Le Mat",
+      "keywords": ["liberté", "nouveau départ", "aventure"],
+      "description": "Année de liberté et de nouveau départ. Elle invite à sortir des cadres, à explorer sans certitude et à faire confiance au chemin qui se présente."
+    }
+  ]
