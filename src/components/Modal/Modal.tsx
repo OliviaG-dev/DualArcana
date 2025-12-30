@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import "./Modal.css";
+import backgroundImage2 from "../../assets/background2.jpg";
 
 interface ModalProps {
   isOpen: boolean;
@@ -42,6 +43,11 @@ function Modal({ isOpen, onClose, title, children }: ModalProps) {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <div
+          className="modal-background"
+          style={{ backgroundImage: `url(${backgroundImage2})` }}
+        />
+        <div className="modal-overlay-inner" />
         <div className="modal-header">
           {title && <h2 className="modal-title">{title}</h2>}
           <button className="modal-close" onClick={onClose} aria-label="Fermer">
@@ -55,4 +61,3 @@ function Modal({ isOpen, onClose, title, children }: ModalProps) {
 }
 
 export default Modal;
-

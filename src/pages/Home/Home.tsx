@@ -152,17 +152,24 @@ function Home() {
             title="Interprétation DualArcana"
           >
             {enrichedResult && (
-              <>
-                <ArcanaInterpretation
-                  arcane={enrichedResult.year}
-                  type="year"
-                />
-                <ArcanaInterpretation
-                  arcane={enrichedResult.personal}
-                  type="personal"
-                />
+              <div className="modal-interpretations">
+                <div className="interpretations-grid">
+                  <div className="interpretation-column">
+                    <ArcanaInterpretation
+                      arcane={enrichedResult.year}
+                      type="year"
+                    />
+                  </div>
+                  <div className="interpretations-separator"></div>
+                  <div className="interpretation-column">
+                    <ArcanaInterpretation
+                      arcane={enrichedResult.personal}
+                      type="personal"
+                    />
+                  </div>
+                </div>
                 <FusionInterpretation fusion={enrichedResult.fusion} />
-              </>
+              </div>
             )}
           </Modal>
         </section>
