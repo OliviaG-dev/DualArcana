@@ -11,5 +11,8 @@ export {
   type ArcaneResult,
   type DualArcanaResult,
 } from "./cycle";
-
-
+export {
+  enrichDualArcanaResult,
+  type EnrichedArcaneResult,
+  type EnrichedDualArcanaResult,
+} from "./interpretation";

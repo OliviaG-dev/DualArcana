@@ -25,5 +25,3 @@ export const MAJOR_ARCANES: Record<number, string> = {
   21: "Le Monde",
   22: "Le Mat",
 };
-
-

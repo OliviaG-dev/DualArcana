@@ -2,7 +2,7 @@
  * Additionne les chiffres d'un nombre
  * @param value - Le nombre à traiter
  * @returns La somme des chiffres
- * 
+ *
  * @example
  * sumDigits(2026) // 2 + 0 + 2 + 6 = 10
  */
@@ -14,15 +14,15 @@ export const sumDigits = (value: number): number =>
 
 /**
  * Réduit un nombre à un arcane valide (1–22)
- * 
+ *
  * Règles :
  * - Les nombres maîtres 11 et 22 ne sont pas réduits
  * - Si le résultat > 22, on réduit jusqu'à obtenir 1–22
  * - 0 n'existe pas → 22 = Le Mat
- * 
+ *
  * @param value - Le nombre à réduire
  * @returns Un nombre entre 1 et 22
- * 
+ *
  * @example
  * reduceToArcane(29) // 2 + 9 = 11 → 11
  * reduceToArcane(45) // 4 + 5 = 9 → 9
@@ -45,5 +45,3 @@ export const reduceToArcane = (value: number): number => {
 
   return result;
 };
-
-

@@ -231,6 +231,37 @@
   font-weight: 300;
 }
 
+/* Interpretation Button */
+.interpretation-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.interpretation-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 0.75rem 2rem;
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  letter-spacing: 0.02em;
+}
+
+.interpretation-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.interpretation-button:active {
+  transform: translateY(0);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .main-content {
@@ -288,5 +319,10 @@
 
   .arcane-separator {
     font-size: 1.5rem;
+  }
+
+  .interpretation-button {
+    padding: 0.625rem 1.5rem;
+    font-size: 0.9375rem;
   }
 }
