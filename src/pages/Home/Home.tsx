@@ -64,6 +64,8 @@ function Home() {
           </p>
         </section>
 
+        <div className="section-divider"></div>
+
         <section className="section">
           <form onSubmit={handleCalculate} className="arcana-form">
             <div className="form-group">
