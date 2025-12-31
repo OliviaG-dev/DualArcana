@@ -70,39 +70,93 @@ function Home() {
           <form onSubmit={handleCalculate} className="arcana-form">
             <div className="form-group">
               <label htmlFor="day">Jour</label>
-              <input
-                type="number"
-                id="day"
-                min="1"
-                max="31"
-                value={day}
-                onChange={(e) => setDay(Number(e.target.value))}
-                required
-              />
+              <div className="input-wrapper">
+                <button
+                  type="button"
+                  className="input-button input-button-decrease"
+                  onClick={() => setDay(Math.max(1, day - 1))}
+                  aria-label="Diminuer le jour"
+                >
+                  <span className="input-button-icon">−</span>
+                </button>
+                <input
+                  type="number"
+                  id="day"
+                  min="1"
+                  max="31"
+                  value={day}
+                  onChange={(e) => setDay(Number(e.target.value))}
+                  required
+                />
+                <button
+                  type="button"
+                  className="input-button input-button-increase"
+                  onClick={() => setDay(Math.min(31, day + 1))}
+                  aria-label="Augmenter le jour"
+                >
+                  <span className="input-button-icon">+</span>
+                </button>
+              </div>
             </div>
             <div className="form-group">
               <label htmlFor="month">Mois</label>
-              <input
-                type="number"
-                id="month"
-                min="1"
-                max="12"
-                value={month}
-                onChange={(e) => setMonth(Number(e.target.value))}
-                required
-              />
+              <div className="input-wrapper">
+                <button
+                  type="button"
+                  className="input-button input-button-decrease"
+                  onClick={() => setMonth(Math.max(1, month - 1))}
+                  aria-label="Diminuer le mois"
+                >
+                  <span className="input-button-icon">−</span>
+                </button>
+                <input
+                  type="number"
+                  id="month"
+                  min="1"
+                  max="12"
+                  value={month}
+                  onChange={(e) => setMonth(Number(e.target.value))}
+                  required
+                />
+                <button
+                  type="button"
+                  className="input-button input-button-increase"
+                  onClick={() => setMonth(Math.min(12, month + 1))}
+                  aria-label="Augmenter le mois"
+                >
+                  <span className="input-button-icon">+</span>
+                </button>
+              </div>
             </div>
             <div className="form-group">
               <label htmlFor="year">Année</label>
-              <input
-                type="number"
-                id="year"
-                min="1900"
-                max="2100"
-                value={year}
-                onChange={(e) => setYear(Number(e.target.value))}
-                required
-              />
+              <div className="input-wrapper">
+                <button
+                  type="button"
+                  className="input-button input-button-decrease"
+                  onClick={() => setYear(Math.max(1900, year - 1))}
+                  aria-label="Diminuer l'année"
+                >
+                  <span className="input-button-icon">−</span>
+                </button>
+                <input
+                  type="number"
+                  id="year"
+                  min="1900"
+                  max="2100"
+                  value={year}
+                  onChange={(e) => setYear(Number(e.target.value))}
+                  required
+                />
+                <button
+                  type="button"
+                  className="input-button input-button-increase"
+                  onClick={() => setYear(Math.min(2100, year + 1))}
+                  aria-label="Augmenter l'année"
+                >
+                  <span className="input-button-icon">+</span>
+                </button>
+              </div>
             </div>
             <button type="submit" className="calculate-button">
               Calculer

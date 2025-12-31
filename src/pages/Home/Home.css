@@ -190,65 +190,167 @@
   display: flex;
   flex-direction: column;
   gap: 0.375rem;
+  position: relative;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.input-button {
+  background: rgba(30, 30, 30, 0.7);
+  border: 1.5px solid rgba(212, 175, 55, 0.3);
+  border-radius: 5px;
+  width: 1.625rem;
+  height: 1.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 2px rgba(212, 175, 55, 0.1);
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.input-button-icon {
+  color: #e8d4a8;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  line-height: 1;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.input-button:hover {
+  background: rgba(40, 40, 40, 0.85);
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2), 0 4px 12px rgba(0, 0, 0, 0.4),
+    inset 0 1px 2px rgba(232, 212, 168, 0.15);
+  transform: translateY(-1px);
+}
+
+.input-button:hover .input-button-icon {
+  color: #d4af37;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  transform: scale(1.1);
+}
+
+.input-button:active {
+  transform: translateY(0px) scale(0.95);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4),
+    0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+.input-button:active .input-button-icon {
+  transform: scale(0.95);
 }
 
 .form-group label {
   font-size: 0.8125rem;
   color: #d0d0d0;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
   margin-bottom: 0.5rem;
-  letter-spacing: 0.03em;
-  transition: color 0.3s ease;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-left: 0;
 }
 
-.form-group:focus-within label {
-  color: #f5f5f5;
+.form-group:focus-within label,
+.form-group:hover label {
+  color: #e8d4a8;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.form-group label::after {
+  content: "";
+  position: absolute;
+  bottom: -0.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 175, 55, 0.6),
+    transparent
+  );
+  transition: width 0.3s ease;
+}
+
+.form-group:focus-within label::after,
+.form-group:hover label::after {
+  width: 60%;
 }
 
 .form-group input {
-  background: rgba(15, 15, 15, 0.7);
-  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  background: rgba(30, 30, 30, 0.7);
+  border: 1.5px solid rgba(212, 175, 55, 0.2);
   border-radius: 8px;
-  padding: 0.625rem 0.75rem;
+  padding: 0.4375rem 0.75rem;
   color: #f5f5f5;
-  font-size: 1rem;
-  font-weight: 300;
-  width: 85px;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  min-width: 80px;
+  flex: 1;
   text-align: center;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  backdrop-filter: blur(15px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3),
-    inset 0 1px 2px rgba(255, 255, 255, 0.05);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4),
+    inset 0 1px 2px rgba(212, 175, 55, 0.1), 0 0 0 0px rgba(212, 175, 55, 0);
   position: relative;
+  font-family: inherit;
+  height: auto;
 }
 
 .form-group input::placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.25);
   font-weight: 300;
 }
 
 .form-group input:hover {
-  border-color: rgba(255, 255, 255, 0.3);
-  background: rgba(20, 20, 20, 0.75);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.08), 0 4px 12px rgba(0, 0, 0, 0.4),
-    inset 0 1px 2px rgba(255, 255, 255, 0.08);
-  transform: translateY(-1px);
+  border-color: rgba(212, 175, 55, 0.4);
+  background: rgba(40, 40, 40, 0.85);
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.15), 0 6px 16px rgba(0, 0, 0, 0.5),
+    inset 0 1px 3px rgba(232, 212, 168, 0.1), 0 0 0 1px rgba(212, 175, 55, 0.1);
+  transform: translateY(-2px);
 }
 
 .form-group input:focus {
   outline: none;
-  border-color: rgba(212, 175, 55, 0.6);
-  background: rgba(25, 25, 25, 0.8);
-  box-shadow: 0 0 25px rgba(212, 175, 55, 0.2),
-    0 0 0 2px rgba(212, 175, 55, 0.15), 0 6px 20px rgba(0, 0, 0, 0.5),
-    inset 0 1px 3px rgba(232, 212, 168, 0.15);
-  transform: translateY(-2px) scale(1.03);
+  border-color: rgba(212, 175, 55, 0.7);
+  background: rgba(20, 20, 20, 0.9);
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.3),
+    0 0 0 3px rgba(212, 175, 55, 0.2), 0 8px 24px rgba(0, 0, 0, 0.6),
+    inset 0 1px 4px rgba(232, 212, 168, 0.2);
+  transform: translateY(-3px) scale(1.05);
+  color: #f5f5f5;
 }
 
-.form-group input::-webkit-inner-spin-button,
-.form-group input::-webkit-outer-spin-button {
-  opacity: 1;
+.form-group input:focus::placeholder {
+  color: rgba(255, 255, 255, 0.15);
+}
+
+/* Masquer les flèches natives car nous avons nos propres boutons */
+.form-group input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.form-group input[type="number"]::-webkit-outer-spin-button,
+.form-group input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 
 .calculate-button {

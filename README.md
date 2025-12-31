@@ -26,6 +26,15 @@ DualArcana fait le lien entre ces deux forces : ce que le temps propose, et ce q
 
 > **Le résultat n'est pas une prédiction, mais une clé de lecture :** un outil d'introspection, de compréhension et d'alignement.
 
+## 🎯 Fonctionnalités
+
+- **Calcul automatique** des arcanes de l'année et personnel basé sur la numérologie
+- **Visualisation** des arcanes avec leurs images et numéros
+- **Interprétations détaillées** pour chaque arcane (mots-clés, descriptions)
+- **Fusion des arcanes** avec interprétation de leur rencontre
+- **Interface élégante** avec animations subtiles et design sobre
+- **Modal d'interprétation** pour une exploration approfondie des résultats
+
 ## 🎯 Slogan
 
 **Deux arcanes. Un chemin.**
@@ -77,8 +86,23 @@ src/
   │       ├── Home.tsx     # Composant Home
   │       └── Home.css     # Styles Home
   ├── components/          # Composants réutilisables
+  │   ├── Modal/           # Composant modal
+  │   ├── ArcanaInterpretation/  # Affichage d'un arcane
+  │   └── FusionInterpretation/  # Affichage de la fusion
+  ├── domain/              # Logique métier
+  │   ├── arcane.ts        # Définition des arcanes majeurs
+  │   ├── numerology.ts    # Fonctions de numérologie
+  │   ├── cycle.ts         # Calcul des cycles (année/personnel)
+  │   ├── interpretation.ts # Enrichissement des résultats
+  │   └── index.ts         # Exports centralisés
+  ├── data/                # Données JSON et helpers
+  │   ├── major-arcanes-year.json       # Données arcanes annuels
+  │   ├── major-arcanes-personal.json   # Données arcanes personnels
+  │   ├── major-arcane-fusion.json      # Données fusions
+  │   └── index.ts         # Interfaces et fonctions d'accès
   └── assets/              # Assets statiques
-      ├── background.png   # Image de fond
+      ├── background.png   # Image de fond principale
+      ├── background2.jpg  # Image de fond modal
       └── logo.png         # Logo
 ```
 
