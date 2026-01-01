@@ -17,12 +17,23 @@
   margin-bottom: 0.5rem;
 }
 
-.fusion-subtitle {
-  font-size: 1.125rem;
+.fusion-collective-name {
+  font-size: 0.9375rem;
+  color: #d4af37;
   font-weight: 400;
-  color: #f5f5f5;
+  margin-bottom: 0.75rem;
   font-style: italic;
-  letter-spacing: 0.01em;
+}
+
+.fusion-title {
+  font-size: 1.25rem;
+  font-weight: 400;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8d4a8 50%, #d4af37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
 }
 
 .fusion-description {
@@ -41,8 +52,12 @@
     padding-top: 1.5rem;
   }
 
-  .fusion-subtitle {
-    font-size: 1rem;
+  .fusion-collective-name {
+    font-size: 0.875rem;
+  }
+
+  .fusion-title {
+    font-size: 1.125rem;
   }
 
   .fusion-description {

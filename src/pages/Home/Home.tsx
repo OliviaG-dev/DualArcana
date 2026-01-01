@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./Home.css";
 import backgroundImage from "../../assets/background.png";
 import { getDualArcana } from "../../domain";
@@ -17,6 +17,8 @@ const getArcaneImagePath = (number: number): string => {
   return `/arcanes/${formattedNumber}.png`;
 };
 
+const CARD_BACK_PATH = "/arcanes/back.svg";
+
 function Home() {
   const [day, setDay] = useState<number>(1);
   const [month, setMonth] = useState<number>(1);
@@ -26,13 +28,22 @@ function Home() {
   );
   const [enrichedResult, setEnrichedResult] = useState<EnrichedDualArcanaResult | null>(null);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [isFlipped, setIsFlipped] = useState<boolean>(false);
+  const [cardImageHeight, setCardImageHeight] = useState<number | null>(null);
+  const backImageRef = useRef<HTMLImageElement>(null);
 
   const handleCalculate = (e: React.FormEvent) => {
     e.preventDefault();
+    setIsFlipped(false);
     const calculated = getDualArcana(day, month, year);
     setResult(calculated);
     const enriched = enrichDualArcanaResult(calculated);
     setEnrichedResult(enriched);
+    
+    // Déclencher l'animation de retournement après un court délai
+    setTimeout(() => {
+      setIsFlipped(true);
+    }, 100);
   };
 
   const handleOpenModal = () => {
@@ -44,6 +55,66 @@ function Home() {
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
+
+  // Mesurer la hauteur réelle d'une image de carte pour ajuster le SVG
+  useEffect(() => {
+    const measureCardHeight = () => {
+      const img = new Image();
+      img.onload = () => {
+        // Calculer la hauteur à 100px de largeur (comme défini dans le CSS)
+        const aspectRatio = img.height / img.width;
+        const heightAt100px = Math.round(100 * aspectRatio);
+        setCardImageHeight(heightAt100px);
+        console.log('Card dimensions:', img.width, 'x', img.height, 'Ratio:', aspectRatio.toFixed(4), 'Height at 100px:', heightAt100px);
+        
+        // Ajuster le viewBox du SVG pour correspondre au ratio réel
+        const svgViewBoxHeight = Math.round(100 * aspectRatio);
+        
+        // Forcer la hauteur du SVG après un court délai pour s'assurer qu'il est rendu
+        setTimeout(() => {
+          const backImages = document.querySelectorAll('.card-back-image') as NodeListOf<HTMLImageElement>;
+          backImages.forEach((backImg) => {
+            if (backImg) {
+              // Mettre à jour le viewBox du SVG si c'est un SVG
+              if (backImg.tagName === 'img' && backImg.src.endsWith('.svg')) {
+                // Charger le SVG et mettre à jour son viewBox
+                fetch(backImg.src)
+                  .then(response => response.text())
+                  .then(svgText => {
+                    const parser = new DOMParser();
+                    const svgDoc = parser.parseFromString(svgText, 'image/svg+xml');
+                    const svgElement = svgDoc.querySelector('svg');
+                    if (svgElement) {
+                      svgElement.setAttribute('viewBox', `0 0 100 ${svgViewBoxHeight}`);
+                      svgElement.setAttribute('preserveAspectRatio', 'none');
+                      const serializer = new XMLSerializer();
+                      const updatedSvg = serializer.serializeToString(svgDoc);
+                      const blob = new Blob([updatedSvg], { type: 'image/svg+xml' });
+                      const url = URL.createObjectURL(blob);
+                      backImg.src = url;
+                    }
+                  })
+                  .catch(err => console.error('Error updating SVG viewBox:', err));
+              }
+              
+              backImg.style.setProperty('height', `${heightAt100px}px`, 'important');
+              backImg.style.setProperty('width', '100px', 'important');
+              backImg.style.setProperty('min-height', `${heightAt100px}px`, 'important');
+              backImg.style.setProperty('max-height', `${heightAt100px}px`, 'important');
+            }
+          });
+        }, 200);
+      };
+      img.onerror = () => {
+        console.error('Failed to load card image for measurement');
+        // Valeur par défaut si l'image ne charge pas
+        setCardImageHeight(140);
+      };
+      img.src = getArcaneImagePath(1); // Utiliser la première carte comme référence
+    };
+
+    measureCardHeight();
+  }, []);
 
   return (
     <div className="home">
@@ -163,41 +234,100 @@ function Home() {
             </button>
           </form>
 
-          {result && (
-            <>
-              <div className="result-container">
-                <div className="arcane-card">
-                  <div className="arcane-label">Arcane de l'année</div>
+          <div className="result-container">
+            <div className={`arcane-card ${isFlipped ? "flipped" : ""}`}>
+              <div className="arcane-label">Arcane de l'année</div>
+              <div className="card-flip-container">
+                <div className="card-front">
                   <img
-                    src={getArcaneImagePath(result.year.number)}
-                    alt={result.year.name}
-                    className="arcane-image"
+                    ref={backImageRef}
+                    src={CARD_BACK_PATH}
+                    alt="Dos de carte"
+                    className="arcane-image card-back-image"
+                    style={cardImageHeight ? { height: `${cardImageHeight}px`, width: '100px', minHeight: `${cardImageHeight}px` } : { width: '100px' }}
                   />
-                  <div className="arcane-number">{result.year.number}</div>
-                  <div className="arcane-name">{result.year.name}</div>
+                  <div className="arcane-number">?</div>
+                  <div className="arcane-name">—</div>
                 </div>
-                <div className="arcane-separator">×</div>
-                <div className="arcane-card">
-                  <div className="arcane-label">Arcane personnel</div>
-                  <img
-                    src={getArcaneImagePath(result.personal.number)}
-                    alt={result.personal.name}
-                    className="arcane-image"
-                  />
-                  <div className="arcane-number">{result.personal.number}</div>
-                  <div className="arcane-name">{result.personal.name}</div>
+                <div className="card-back">
+                  {result ? (
+                    <>
+                      <img
+                        src={getArcaneImagePath(result.year.number)}
+                        alt={result.year.name}
+                        className="arcane-image"
+                      />
+                      <div className="arcane-number">{result.year.number}</div>
+                      <div className="arcane-name">{result.year.name}</div>
+                    </>
+                  ) : (
+                    <>
+                      <img
+                        src={CARD_BACK_PATH}
+                        alt="Dos de carte"
+                        className="arcane-image card-back-image"
+                        style={cardImageHeight ? { height: `${cardImageHeight}px`, width: '100px' } : { width: '100px' }}
+                      />
+                      <div className="arcane-number">?</div>
+                      <div className="arcane-name">—</div>
+                    </>
+                  )}
                 </div>
               </div>
-              <div className="interpretation-button-container">
-                <button
-                  type="button"
-                  onClick={handleOpenModal}
-                  className="interpretation-button"
-                >
-                  Voir l'interprétation
-                </button>
+            </div>
+            <div className="arcane-separator">×</div>
+            <div className={`arcane-card ${isFlipped ? "flipped" : ""}`}>
+              <div className="arcane-label">Arcane personnel</div>
+              <div className="card-flip-container">
+                <div className="card-front">
+                  <img
+                    ref={backImageRef}
+                    src={CARD_BACK_PATH}
+                    alt="Dos de carte"
+                    className="arcane-image card-back-image"
+                    style={cardImageHeight ? { height: `${cardImageHeight}px`, width: '100px', minHeight: `${cardImageHeight}px` } : { width: '100px' }}
+                  />
+                  <div className="arcane-number">?</div>
+                  <div className="arcane-name">—</div>
+                </div>
+                <div className="card-back">
+                  {result ? (
+                    <>
+                      <img
+                        src={getArcaneImagePath(result.personal.number)}
+                        alt={result.personal.name}
+                        className="arcane-image"
+                      />
+                      <div className="arcane-number">{result.personal.number}</div>
+                      <div className="arcane-name">{result.personal.name}</div>
+                    </>
+                  ) : (
+                    <>
+                      <img
+                        src={CARD_BACK_PATH}
+                        alt="Dos de carte"
+                        className="arcane-image card-back-image"
+                        style={cardImageHeight ? { height: `${cardImageHeight}px`, width: '100px' } : { width: '100px' }}
+                      />
+                      <div className="arcane-number">?</div>
+                      <div className="arcane-name">—</div>
+                    </>
+                  )}
+                </div>
               </div>
-            </>
+            </div>
+          </div>
+
+          {result && isFlipped && (
+            <div className="interpretation-button-container">
+              <button
+                type="button"
+                onClick={handleOpenModal}
+                className="interpretation-button"
+              >
+                Voir l'interprétation
+              </button>
+            </div>
           )}
 
           <Modal
@@ -222,7 +352,10 @@ function Home() {
                     />
                   </div>
                 </div>
-                <FusionInterpretation fusion={enrichedResult.fusion} />
+                <FusionInterpretation 
+                  fusion={enrichedResult.fusion} 
+                  fusionSet={enrichedResult.fusionSet}
+                />
               </div>
             )}
           </Modal>

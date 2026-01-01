@@ -1,85 +1,380 @@
-{
+[
+  {
     "9": {
       "collectiveName": "L’Hermite",
       "fusion": {
-        "1": { "description": "Le collectif invite au recul et à la réflexion, tandis que ton énergie personnelle pousse à initier. Cette année te demande de combiner observation et action prudente pour avancer avec conscience." },
-        "2": { "description": "Une année introspective où le monde ralentit et ton chemin personnel demande également du calme. C’est le moment d’écouter, de méditer et de préparer tes prochaines actions." },
-        "3": { "description": "L’Hermite collectif favorise la réflexion, et ton énergie personnelle encourage l’expression. Une période idéale pour partager tes idées mûries dans le silence." },
-        "4": { "description": "Le recul collectif se combine à ton besoin de structuration. Une année pour poser des bases solides tout en prenant le temps de la réflexion." },
-        "5": { "description": "Le collectif appelle à l’introspection et ton énergie personnelle se tourne vers le sens et la transmission. Cette année invite à clarifier tes valeurs et tes objectifs." },
-        "6": { "description": "La solitude et le recul mettent en lumière les relations et les choix importants. Cette année te demande de décider avec discernement et authenticité." },
-        "7": { "description": "L’Hermite collectif et ton énergie personnelle favorisent l’action réfléchie. Avancer demande patience, détermination et vision claire." },
-        "8": { "description": "Cette année est propice à l’équilibre et à la justice personnelle, en accord avec le recul nécessaire imposé par le collectif." },
-        "9": { "description": "Le retrait collectif et ton énergie personnelle se rejoignent pour favoriser la sagesse intérieure et le bilan de vie. Une année pour se recentrer profondément." },
-        "10": { "description": "Les changements collectifs s’observent avec distance, et ton énergie personnelle t’invite à t’adapter calmement. Une période pour comprendre et intégrer les cycles." },
-        "11": { "description": "Le recul collectif et ton énergie personnelle de courage intérieur se rejoignent. Cette année demande patience et maîtrise de soi face aux défis." },
-        "12": { "description": "Une pause imposée par le collectif se combine au besoin de lâcher-prise. Cette année invite à accepter le temps nécessaire avant d’agir." },
-        "13": { "description": "L’Hermite collectif accentue les transformations profondes de ton chemin personnel. C’est une année de fin de cycle et de renouveau intérieur." },
-        "14": { "description": "L’énergie d’introspection se combine à ton besoin d’équilibre. Cette année favorise des ajustements harmonieux et une progression douce." },
-        "15": { "description": "Le recul collectif met en lumière certaines dépendances. C’est le moment de prendre conscience de ce qui te limite et de te libérer." },
-        "16": { "description": "Les bouleversements collectifs renforcent ton besoin de transformation intérieure. Une année de construction sur des bases plus saines." },
-        "17": { "description": "L’Hermite collectif favorise l’espoir et la guérison intérieure. Ton énergie personnelle bénéficie de cette période pour retrouver confiance et inspiration." },
-        "18": { "description": "Une année émotionnelle et intuitive où le recul collectif se combine à ton sensibilité personnelle. Écoute ton intuition et accepte le flou." },
-        "19": { "description": "Même dans la lenteur collective, ton énergie personnelle rayonne. Cette année apporte des éclaircies et une reconnexion avec la joie de vivre." },
-        "20": { "description": "Les prises de conscience collectives se rejoignent à ton appel intérieur. Cette année invite à un éveil personnel et à de nouvelles décisions." },
-        "21": { "description": "Le recul collectif et ton chemin personnel apportent un sentiment d’accomplissement et de complétude. Une année pour conclure un cycle avec sérénité." },
-        "22": { "description": "L’Hermite collectif ouvre un espace d’exploration personnelle. Cette année invite à suivre ton intuition et à expérimenter de nouvelles directions." }
+        "1": {
+        "title": "Commencer avec prudence",
+        "description": "L’année collective invite au ralentissement et à la réflexion, tandis que ton énergie personnelle te pousse à initier quelque chose. Cette combinaison demande de démarrer doucement, sans précipitation, en acceptant que tout ne soit pas immédiatement visible."
+        },
+      "2": {
+        "title": "Écouter le silence",
+        "description": "Le climat collectif favorise l’introspection et ton chemin personnel renforce l’écoute intérieure. Cette année est propice à l’observation, à la réflexion et à la maturation des idées avant toute action."
+      },
+      "3": {
+        "title": "Créer en retrait",
+        "description": "Même si l’année n’est pas tournée vers l’extérieur, ton énergie personnelle cherche à s’exprimer. Cette combinaison invite à une créativité plus intime, tournée vers l’essentiel plutôt que vers la reconnaissance."
+      },
+      "4": {
+        "title": "Structurer l’essentiel",
+        "description": "Dans une année de recul, ton besoin de stabilité se fait sentir. Cette période permet de consolider des bases solides, en simplifiant et en éliminant le superflu."
+      },
+      "5": {
+        "title": "Questionner ses croyances",
+        "description": "L’année collective pousse à la réflexion profonde, tandis que ton énergie personnelle t’invite à revoir tes valeurs. Cette combinaison favorise une remise en question saine de ce que tu croyais acquis."
+      },
+      "6": {
+        "title": "Choisir en conscience",
+        "description": "Les relations et les choix affectifs sont vécus avec plus de recul. Cette année invite à des décisions réfléchies, prises avec honnêteté plutôt qu’avec urgence."
+      },
+      "7": {
+        "title": "Avancer lentement",
+        "description": "Ton énergie personnelle pousse à l’action, mais l’année collective impose un rythme plus lent. Cette combinaison demande d’avancer étape par étape, sans forcer les choses."
+      },
+      "8": {
+        "title": "Faire un bilan honnête",
+        "description": "Cette année met l’accent sur la lucidité et la responsabilité. Ton énergie personnelle t’invite à analyser tes choix passés afin de rétablir un équilibre plus juste."
+      },
+      "9": {
+        "title": "Introspection profonde",
+        "description": "Les énergies collective et personnelle se rejoignent dans une forte invitation au retrait. Cette année est idéale pour faire le point, comprendre tes erreurs et préparer une direction plus alignée."
+      },
+      "10": {
+        "title": "Comprendre les cycles",
+        "description": "Alors que l’année collective ralentit, ton énergie personnelle perçoit les mouvements du changement. Cette combinaison invite à observer les cycles de la vie sans chercher à les contrôler."
+      },
+      "11": {
+        "title": "Cultiver la force intérieure",
+        "description": "Dans une période de solitude ou de doute, ton énergie personnelle t’aide à rester stable. Cette année développe une force calme, fondée sur la patience et la maîtrise émotionnelle."
+      },
+      "12": {
+        "title": "Accepter l’attente",
+        "description": "L’année collective invite à la pause, et ton énergie personnelle renforce ce besoin de lâcher prise. Cette combinaison demande d’accepter les moments de suspension sans les vivre comme un échec."
+      },
+      "13": {
+        "title": "Préparer une transformation",
+        "description": "Cette année annonce une mutation intérieure importante. Même si les changements ne sont pas encore visibles, quelque chose se termine en profondeur pour laisser place à du renouveau."
+      },
+      "14": {
+        "title": "Trouver l’équilibre intérieur",
+        "description": "L’énergie collective favorise la modération, tandis que ton chemin personnel cherche l’harmonie. Cette année invite à avancer avec douceur et régularité."
+      },
+      "15": {
+        "title": "Identifier ses attachements",
+        "description": "Le recul imposé par l’année met en lumière certaines dépendances ou schémas répétitifs. Cette combinaison invite à en prendre conscience afin de s’en libérer progressivement."
+      },
+      "16": {
+        "title": "Comprendre la rupture",
+        "description": "Même si aucune rupture spectaculaire n’est visible, cette année fragilise ce qui n’est plus solide. Cette combinaison prépare une reconstruction plus saine, sur le long terme."
+      },
+      "17": {
+        "title": "Garder l’espoir",
+        "description": "Dans une année discrète et introspective, ton énergie personnelle apporte une lumière douce. Cette combinaison favorise la guérison intérieure et la confiance tranquille."
+      },
+      "18": {
+        "title": "Explorer l’émotionnel",
+        "description": "Le climat collectif accentue la sensibilité et l’intuition. Cette année invite à écouter tes émotions, même lorsqu’elles sont confuses ou difficiles à comprendre."
+      },
+      "19": {
+        "title": "Une lumière intérieure",
+        "description": "Même dans une année tournée vers le retrait, ton énergie personnelle apporte chaleur et clarté. Cette combinaison permet de retrouver confiance et joie de manière simple et sincère."
+      },
+      "20": {
+        "title": "Un appel discret",
+        "description": "Cette année agit comme un réveil intérieur silencieux. Ton énergie personnelle t’invite à entendre un appel profond, sans pression, mais avec lucidité."
+      },
+      "21": {
+        "title": "Intégrer le chemin parcouru",
+        "description": "L’année collective permet de prendre conscience du chemin accompli. Cette combinaison apporte un sentiment de cohérence intérieure et de maturité."
+      },
+      "22": {
+        "title": "Préparer un nouveau départ",
+        "description": "Même si l’année invite au recul, ton énergie personnelle ressent l’appel de la liberté. Cette combinaison prépare un futur départ, plus conscient et mieux aligné."
       }
-    },
+    }
+  },
+
   
     "10": {
-      "collectiveName": "La Roue de Fortune",
-      "fusion": {
-        "1": { "description": "Les cycles collectifs tournent rapidement et ton énergie personnelle initie de nouveaux projets. Cette année est pleine d’opportunités et d’élan pour agir." },
-        "2": { "description": "La roue tourne et ton énergie personnelle demande patience et observation. Une année pour comprendre les changements avant de prendre des décisions." },
-        "3": { "description": "Le collectif apporte mouvement et cycles, tandis que ton énergie personnelle favorise l’expression. C’est le moment de faire fructifier tes idées." },
-        "4": { "description": "La Roue de Fortune invite au changement, et ton énergie personnelle cherche à structurer. Cette année demande d’ancrer tes projets malgré l’instabilité." },
-        "5": { "description": "Les tournants collectifs mettent en question tes valeurs, et ton énergie personnelle invite à clarifier tes objectifs. Une période pour réévaluer le sens de tes actions." },
-        "6": { "description": "Les changements extérieurs accélèrent les choix relationnels. Ton énergie personnelle favorise la réflexion avant de t’engager." },
-        "7": { "description": "Les cycles collectifs créent de l’élan et ton énergie personnelle te pousse à avancer avec détermination. Une année propice aux projets ambitieux." },
-        "8": { "description": "L’énergie de mouvement exige équilibre et responsabilité. Ton arcane personnel favorise des décisions justes et mesurées." },
-        "9": { "description": "La Roue de Fortune demande adaptation et recul. Ton énergie personnelle favorise la sagesse intérieure pour naviguer les cycles." },
-        "10": { "description": "Une année de changements rapides et d’opportunités à saisir. Les cycles collectifs et personnels se répondent et demandent souplesse." },
-        "11": { "description": "Les mouvements collectifs mettent à l’épreuve ton courage intérieur. Cette année invite à avancer malgré l’incertitude avec confiance et maîtrise." },
-        "12": { "description": "Une période de suspension ou d’ajustement apparaît. Ton énergie personnelle invite au lâcher-prise et à la réflexion avant d’agir." },
-        "13": { "description": "Des transformations collectives profondes s’alignent avec ton parcours personnel. C’est une année de fin de cycle et de renouveau." },
-        "14": { "description": "Les cycles collectifs nécessitent un équilibre constant. Ton énergie personnelle favorise la progression douce et harmonieuse." },
-        "15": { "description": "Les excès et dépendances se révèlent avec la roue en mouvement. Ton chemin personnel invite à reprendre le pouvoir et à te libérer." },
-        "16": { "description": "Les changements rapides provoquent des ruptures salutaires. Ton énergie personnelle invite à reconstruire sur des bases solides." },
-        "17": { "description": "Malgré les bouleversements collectifs, ton chemin personnel favorise l’espoir et la confiance dans le renouveau." },
-        "18": { "description": "Les cycles rapides réveillent l’intuition et les émotions. Cette année demande d’écouter tes ressentis et de naviguer avec sensibilité." },
-        "19": { "description": "Même dans le changement, ton énergie personnelle apporte joie et clarté. Les opportunités portent les fruits de tes efforts." },
-        "20": { "description": "La Roue de Fortune déclenche des prises de conscience importantes. Ton énergie personnelle invite à décider et à suivre ton chemin intérieur." },
-        "21": { "description": "Les cycles collectifs et ton chemin personnel se rejoignent pour offrir un sentiment d’accomplissement et de cohérence." },
-        "22": { "description": "Les tournants collectifs ouvrent un espace pour explorer librement de nouvelles directions, conformément à ton énergie personnelle." }
+    "collectiveName": "La Roue de Fortune",
+    "fusion": {
+      "1": {
+        "title": "Saisir l’élan du changement",
+        "description": "L’année collective est marquée par des changements rapides, tandis que ton énergie personnelle te pousse à initier et à agir. Cette combinaison indique une période riche en opportunités, à condition d’oser te lancer sans attendre que tout soit parfaitement clair."
+      },
+      "2": {
+        "title": "Observer avant d’agir",
+        "description": "Alors que le monde évolue vite, ton chemin personnel invite à la patience et à l’observation. Cette année te demande de comprendre les cycles en cours avant de prendre une décision importante."
+      },
+      "3": {
+        "title": "Créer dans le mouvement",
+        "description": "Les changements collectifs stimulent ton besoin d’expression et de créativité. Cette année favorise la naissance d’idées, de projets ou de relations qui peuvent évoluer rapidement."
+      },
+      "4": {
+        "title": "Stabilité au cœur de l’instabilité",
+        "description": "Dans un contexte collectif changeant, tu ressens le besoin de structurer et de sécuriser. Cette combinaison invite à construire des bases solides tout en restant capable de t’adapter."
+      },
+      "5": {
+        "title": "Redéfinir ses repères",
+        "description": "Les tournants de l’année amènent une remise en question de tes valeurs et de tes croyances. Cette période favorise l’apprentissage, la transmission et une réflexion plus profonde sur le sens de ton parcours."
+      },
+      "6": {
+        "title": "Choisir avec le cœur",
+        "description": "Les changements mettent en lumière tes relations et tes engagements. Cette année te demande de faire des choix affectifs importants, parfois rapidement, tout en restant fidèle à ce que tu ressens."
+      },
+      "7": {
+        "title": "Avancer avec détermination",
+        "description": "Le mouvement collectif renforce ton envie d’avancer et de prendre les devants. Cette combinaison favorise l’action, l’audace et la progression vers des objectifs clairement définis."
+      },
+      "8": {
+        "title": "Trouver l’équilibre",
+        "description": "Face à l’instabilité, ton énergie personnelle t’invite à faire des choix justes et réfléchis. Maintenir une cohérence intérieure devient essentiel pour traverser cette année sereinement."
+      },
+      "9": {
+        "title": "Prendre du recul",
+        "description": "Alors que tout semble bouger autour de toi, ton chemin personnel te pousse à ralentir. Cette année invite à observer les cycles, à comprendre ce qui se répète et à ajuster ta direction."
+      },
+      "10": {
+        "title": "Un tournant majeur",
+        "description": "Les cycles collectifs et personnels se rejoignent fortement. Cette année marque un moment charnière, demandant adaptabilité, souplesse et confiance dans le mouvement de la vie."
+      },
+      "11": {
+        "title": "Maîtriser la tempête",
+        "description": "Les changements extérieurs mettent à l’épreuve ta force intérieure. Cette combinaison invite à faire preuve de calme, de patience et de courage pour rester stable malgré les fluctuations."
+      },
+      "12": {
+        "title": "Accepter la pause",
+        "description": "Les évolutions collectives peuvent provoquer des moments de suspension. Ton énergie personnelle t’invite à lâcher prise et à accepter ce qui ne peut pas être contrôlé immédiatement."
+      },
+      "13": {
+        "title": "Changer de cycle",
+        "description": "La Roue de Fortune amplifie une transformation personnelle profonde. Cette année marque la fin d’une phase de vie et l’ouverture vers quelque chose de radicalement différent."
+      },
+      "14": {
+        "title": "S’ajuster en douceur",
+        "description": "Les changements demandent des ajustements constants. Ton énergie personnelle favorise l’équilibre, la modération et une adaptation progressive, sans brusquer les choses."
+      },
+      "15": {
+        "title": "Reprendre le contrôle",
+        "description": "Les mouvements rapides mettent en lumière des attachements ou des excès. Cette année invite à prendre conscience de ce qui te freine afin de retrouver une plus grande liberté."
+      },
+      "16": {
+        "title": "Rupture nécessaire",
+        "description": "Les changements soudains peuvent provoquer des ruptures déstabilisantes mais libératrices. Cette année détruit ce qui n’est plus solide pour permettre une reconstruction plus authentique."
+      },
+      "17": {
+        "title": "Garder confiance",
+        "description": "Même dans l’instabilité, ton énergie personnelle apporte espoir et apaisement. Cette année favorise un renouveau progressif et une reconstruction en douceur."
+      },
+      "18": {
+        "title": "Naviguer dans l’incertitude",
+        "description": "Les cycles rapides accentuent les émotions et l’intuition. Cette année demande d’écouter tes ressentis, même lorsque tout n’est pas encore clair."
+      },
+      "19": {
+        "title": "Rayonner malgré les changements",
+        "description": "Malgré les fluctuations, ton énergie personnelle apporte clarté et vitalité. Cette année permet de retrouver joie, confiance et reconnaissance."
+      },
+      "20": {
+        "title": "Un appel intérieur",
+        "description": "Les tournants collectifs déclenchent une prise de conscience personnelle forte. Cette année agit comme un appel à changer de direction ou à t’aligner davantage avec toi-même."
+      },
+      "21": {
+        "title": "Atteindre une cohérence globale",
+        "description": "Les cycles collectifs et personnels tendent vers un aboutissement. Cette année apporte une compréhension plus large de ton parcours et un sentiment d’unité."
+      },
+      "22": {
+        "title": "Suivre le mouvement",
+        "description": "Les changements ouvrent un espace de liberté personnelle. Cette année invite à explorer, expérimenter et avancer sans tout maîtriser, en faisant confiance au chemin."
       }
-    },
+    }
+  },
   
     "11": {
       "collectiveName": "La Force",
       "fusion": {
-        "1": { "description": "Le collectif met à l’épreuve la maîtrise et la confiance, et ton énergie personnelle initie. Cette année demande courage et action équilibrée." },
-        "2": { "description": "La Force collective et ton énergie personnelle favorisent l’introspection et la patience. Une période pour comprendre avant de s’engager." },
-        "3": { "description": "L’énergie collective encourage le dépassement, tandis que ton arcane personnel favorise l’expression et la créativité. C’est une année de réalisation personnelle." },
-        "4": { "description": "La Force invite à structurer et consolider ton chemin. Cette année demande discipline et organisation pour avancer." },
-        "5": { "description": "Le courage collectif résonne avec ton besoin de sens et de transmission. Cette année est propice à clarifier tes valeurs et à partager ton expérience." },
-        "6": { "description": "Les défis collectifs amplifient tes choix personnels. Une année pour prendre des décisions alignées avec le cœur et la raison." },
-        "7": { "description": "L’action collective et ton énergie personnelle favorisent la détermination et l’avancée vers tes objectifs." },
-        "8": { "description": "La Force collective et ton arcane personnel demandent équilibre et responsabilité dans chaque décision." },
-        "9": { "description": "Le retrait et la réflexion nécessaires sont mis en valeur par le courage intérieur. Une année pour maturer et se recentrer." },
-        "10": { "description": "Les changements collectifs demandent de l’adaptabilité et ton énergie personnelle favorise l’endurance et la confiance." },
-        "11": { "description": "L’énergie de maîtrise et de courage est amplifiée. Cette année demande patience, confiance et force intérieure." },
-        "12": { "description": "Les pauses collectives appellent au lâcher-prise. Ton chemin personnel favorise la compréhension et la réflexion." },
-        "13": { "description": "Les transformations collectives et personnelles s’entrelacent pour permettre un renouveau courageux et conscient." },
-        "14": { "description": "L’harmonie et l’équilibre sont mis en avant. Cette année favorise une progression douce et maîtrisée." },
-        "15": { "description": "La Force met en lumière les dépendances. Ton énergie personnelle invite à prendre conscience et à se libérer de ce qui freine." },
-        "16": { "description": "Les bouleversements collectifs renforcent ton courage personnel. Cette année favorise la reconstruction sur des bases plus solides." },
-        "17": { "description": "Malgré les défis, ton énergie personnelle inspire confiance et espoir. Une période de guérison et de renouveau." },
-        "18": { "description": "Les émotions et l’intuition sont accentuées. Cette année invite à écouter tes ressentis et à agir avec discernement." },
-        "19": { "description": "La Force collective soutient ton énergie personnelle de joie et de réussite. Une année lumineuse et épanouissante." },
-        "20": { "description": "Les événements collectifs provoquent un réveil intérieur. Ton énergie personnelle invite à décider et à suivre ton chemin avec courage." },
-        "21": { "description": "L’énergie collective et personnelle se rejoignent pour un sentiment d’accomplissement et de cohérence." },
-        "22": { "description": "La Force collective ouvre un espace d’exploration et de liberté. Ton énergie personnelle invite à oser et expérimenter." }
+        "1": {
+          "title": "Canaliser l’élan",
+          "description": "L’année collective met l’accent sur la maîtrise et l’endurance, tandis que ton énergie personnelle te pousse à initier. Cette combinaison invite à agir avec calme, en dosant ton énergie plutôt qu’en forçant les choses."
+        },
+        "2": {
+          "title": "Force intérieure silencieuse",
+          "description": "Le climat collectif valorise la patience et la douceur, et ton chemin personnel renforce l’écoute intérieure. Cette année développe une force discrète, basée sur l’intuition et la stabilité émotionnelle."
+        },
+        "3": {
+          "title": "Exprimer avec douceur",
+          "description": "Ton besoin de création et d’expression s’exprime de manière plus posée. Cette combinaison invite à communiquer avec bienveillance, sans chercher à imposer ta présence."
+        },
+        "4": {
+        "title": "Tenir une structure solide",
+        "description": "Dans une année qui demande endurance et maîtrise, ton énergie personnelle cherche à structurer. Cette combinaison favorise une autorité calme, fondée sur la constance plutôt que sur la domination."
+      },
+        "5": {
+        "title": "Incarner ses valeurs",
+        "description": "L’année collective met à l’épreuve tes croyances et ton éthique. Cette combinaison t’invite à rester fidèle à tes valeurs, même lorsque cela demande patience et persévérance."
+      },
+        "6": {
+        "title": "Aimer avec maturité",
+        "description": "Les relations demandent plus de conscience et de retenue. Cette année invite à des choix affectifs posés, fondés sur la confiance plutôt que sur l’impulsivité."
+      },
+        "7": {
+        "title": "Avancer sans brutalité",
+        "description": "Ton énergie personnelle pousse à l’action, mais l’année collective rappelle l’importance de la maîtrise. Cette combinaison favorise une progression régulière, sans précipitation."
+      },
+        "8": {
+        "title": "Trouver le juste équilibre",
+        "description": "L’année invite à agir avec responsabilité et équité. Ton énergie personnelle te pousse à rester alignée, en cherchant l’équilibre entre fermeté et compassion."
+      },
+        "9": {
+        "title": "Force du retrait",
+        "description": "Dans une année de maîtrise, ton énergie personnelle t’invite à prendre du recul. Cette combinaison développe une force intérieure profonde, nourrie par la réflexion et le calme."
+      },
+        "10": {
+        "title": "Rester stable dans le mouvement",
+        "description": "Même lorsque les cycles bougent autour de toi, l’année collective t’aide à rester centrée. Cette combinaison invite à traverser les changements sans perdre ton ancrage."
+      },
+        "11": {
+        "title": "Alignement intérieur",
+        "description": "Les énergies collective et personnelle se rejoignent autour de la maîtrise de soi. Cette année développe courage, confiance et stabilité émotionnelle face aux défis."
+      },
+        "12": {
+        "title": "Accepter de lâcher prise",
+        "description": "L’année collective demande patience et acceptation. Cette combinaison invite à ne pas lutter contre ce qui ne peut être changé immédiatement, mais à faire confiance au temps."
+      },
+        "13": {
+        "title": "Transformer en douceur",
+        "description": "Les changements profonds s’opèrent de manière progressive. Cette année permet de laisser mourir certains schémas sans violence, pour renaître plus alignée."
+      },
+        "14": {
+        "title": "Cultiver l’harmonie",
+        "description": "Ton énergie personnelle favorise l’équilibre et la modération. Cette combinaison invite à avancer avec douceur, en respectant ton rythme et celui des autres."
+      },
+        "15": {
+        "title": "Dominer ses excès",
+        "description": "L’année met en lumière les attachements et les pulsions. Cette combinaison invite à reprendre le contrôle avec lucidité et bienveillance envers toi-même."
+      },
+        "16": {
+        "title": "Tenir après la secousse",
+        "description": "Même en cas de bouleversement, l’année collective t’aide à rester debout. Cette combinaison favorise une reconstruction patiente après une rupture ou un choc."
+      },
+        "17": {
+        "title": "Renaître avec confiance",
+        "description": "Dans une année de maîtrise, ton énergie personnelle apporte espoir et apaisement. Cette combinaison favorise la guérison et la confiance en l’avenir."
+      },
+        "18": {
+        "title": "Apprivoiser les émotions",
+        "description": "L’année collective demande de ne pas se laisser submerger par les émotions. Cette combinaison invite à accueillir la sensibilité sans perdre ton centre."
+      },
+        "19": {
+        "title": "Rayonner calmement",
+        "description": "Ton énergie personnelle apporte chaleur et assurance. Cette combinaison favorise un rayonnement naturel, sans besoin d’en faire trop."
+      },
+        "20": {
+        "title": "Répondre à l’appel intérieur",
+        "description": "L’année collective donne la force nécessaire pour répondre à un appel profond. Cette combinaison invite à assumer pleinement une décision importante."
+      },
+        "21": {
+          "title": "Stabilité accomplie",
+          "description": "Cette année apporte un sentiment de cohérence et de maturité. Ton énergie personnelle te permet d’intégrer pleinement ton parcours."
+        },
+        "22": {
+          "title": "Oser avec confiance",
+          "description": "Même dans une année de maîtrise, ton énergie personnelle garde un élan de liberté. Cette combinaison invite à explorer sans peur, en faisant confiance à ta solidité intérieure."
+        }
       }
-    }
-  }
+    },
+
+    "12": {
+      "collectiveName": "Le Pendu",
+      "fusion": {
+        "1": {
+          "title": "Agir autrement",
+          "description": "L’année collective impose une pause ou un ralentissement, tandis que ton énergie personnelle cherche à initier. Cette combinaison invite à revoir ta manière d’agir et à accepter que certaines choses demandent un autre angle d’approche."
+        },
+        "2": {
+          "title": "Écoute intérieure renforcée",
+          "description": "Le climat collectif favorise l’attente et l’introspection, et ton énergie personnelle renforce ce mouvement. Cette année est propice à l’observation, au silence et à la compréhension profonde avant toute décision."
+        },
+        "3": {
+          "title": "Créer différemment",
+          "description": "Même si l’année semble figée, ton besoin de création reste présent. Cette combinaison invite à une expression plus intérieure, moins tournée vers l’extérieur ou la reconnaissance."
+        },
+        "4": {
+          "title": "Revoir ses fondations",
+          "description": "L’année collective remet en question les structures existantes. Ton énergie personnelle t’invite à observer ce qui tient encore et ce qui mérite d’être réajusté avant de reconstruire."
+        },
+        "5": {
+          "title": "Questionner ses certitudes",
+          "description": "Le Pendu pousse à suspendre les croyances établies. Cette combinaison invite à remettre en question les valeurs ou les règles que tu suivais sans les interroger."
+        },
+        "6": {
+          "title": "Relations en pause",
+          "description": "Les choix affectifs sont ralentis ou mis en attente. Cette année demande de prendre du recul sur tes relations afin de mieux comprendre ce que tu attends réellement."
+        },
+        "7": {
+          "title": "Avancer sans forcer",
+          "description": "Ton énergie personnelle pousse à l’action, mais l’année collective impose l’immobilité. Cette combinaison invite à accepter que certaines avancées ne peuvent pas être forcées."
+        },
+        "8": {
+          "title": "Lâcher le contrôle",
+          "description": "L’année demande de renoncer au besoin de tout maîtriser. Ton énergie personnelle t’invite à accepter une période d’incertitude pour retrouver un équilibre plus juste."
+        },
+        "9": {
+          "title": "Pause introspective",
+          "description": "Le recul collectif rejoint ton besoin personnel de réflexion. Cette année favorise un bilan intérieur profond et une meilleure compréhension de ton chemin."
+        },
+        "10": {
+          "title": "Observer le mouvement",
+          "description": "Même si tout semble suspendu, les cycles continuent d’évoluer. Cette combinaison invite à observer les changements sans chercher à intervenir immédiatement."
+        },
+        "11": {
+          "title": "Patience et maîtrise",
+          "description": "L’année collective demande patience et acceptation. Ton énergie personnelle t’aide à traverser cette période avec calme et force intérieure."
+        },
+        "12": {
+          "title": "Suspension totale",
+          "description": "Les énergies collective et personnelle se rejoignent dans une phase d’arrêt. Cette année invite à accepter pleinement la pause afin de transformer ton regard sur la situation."
+        },
+        "13": {
+          "title": "Transformation intérieure",
+          "description": "Même sans action visible, une mutation profonde est en cours. Cette année prépare une transformation importante qui prendra forme plus tard."
+        },
+        "14": {
+          "title": "Trouver l’équilibre dans l’attente",
+          "description": "Ton énergie personnelle cherche l’harmonie malgré l’immobilité. Cette combinaison invite à avancer intérieurement avec douceur et modération."
+        },
+        "15": {
+          "title": "Prendre conscience des dépendances",
+          "description": "La pause imposée met en lumière certains attachements ou blocages. Cette année invite à reconnaître ce qui te retient afin de t’en libérer."
+        },
+        "16": {
+          "title": "Comprendre l’effondrement",
+          "description": "Même si les ruptures ne sont pas immédiates, l’année fragilise certaines structures. Cette combinaison prépare une remise à zéro nécessaire."
+        },
+        "17": {
+          "title": "Garder la foi",
+          "description": "Dans une année d’attente, ton énergie personnelle apporte une lumière douce. Cette combinaison favorise l’espoir et la guérison intérieure."
+        },
+        "18": {
+          "title": "Explorer l’inconscient",
+          "description": "L’immobilité extérieure accentue la vie émotionnelle et intuitive. Cette année invite à écouter tes ressentis les plus profonds, même s’ils sont flous."
+        },
+        "19": {
+          "title": "Lumière intérieure",
+          "description": "Même dans une année suspendue, ton énergie personnelle apporte clarté et chaleur. Cette combinaison permet de retrouver confiance en toi."
+        },
+        "20": {
+          "title": "Un appel différé",
+          "description": "L’année agit comme un temps de préparation intérieure. Cette combinaison annonce un futur réveil, mais demande encore patience et écoute."
+        },
+        "21": {
+          "title": "Intégrer l’expérience",
+          "description": "Cette année permet d’assimiler ce qui a été vécu. Ton énergie personnelle favorise une compréhension globale avant de passer à une nouvelle étape."
+        },
+        "22": {
+          "title": "Liberté en gestation",
+          "description": "Même si l’année semble figée, un nouveau départ se prépare. Cette combinaison invite à faire confiance au processus avant de te lancer à nouveau."
+        }
+      }
+   } 
+}
+]

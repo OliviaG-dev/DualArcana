@@ -3,8 +3,10 @@ import {
   getYearArcaneData,
   getPersonalArcaneData,
   getArcaneFusion,
+  getArcaneFusionSet,
   type MajorArcaneData,
   type ArcaneFusionDescription,
+  type ArcaneFusionSet,
 } from "../data";
 
 /**
@@ -23,14 +25,15 @@ export interface EnrichedDualArcanaResult {
   year: EnrichedArcaneResult;
   personal: EnrichedArcaneResult;
   fusion?: ArcaneFusionDescription;
+  fusionSet?: ArcaneFusionSet;
 }
 
 /**
  * Enrichit un résultat DualArcana avec les données d'interprétation
- * 
+ *
  * @param result - Le résultat de base de getDualArcana
  * @returns Le résultat enrichi avec descriptions, keywords et fusion
- * 
+ *
  * @example
  * const result = getDualArcana(29, 10, 2026);
  * const enriched = enrichDualArcanaResult(result);
@@ -41,6 +44,7 @@ export const enrichDualArcanaResult = (
   const yearData = getYearArcaneData(result.year.number);
   const personalData = getPersonalArcaneData(result.personal.number);
   const fusion = getArcaneFusion(result.year.number, result.personal.number);
+  const fusionSet = getArcaneFusionSet(result.year.number);
 
   return {
     year: {
@@ -52,6 +56,6 @@ export const enrichDualArcanaResult = (
       data: personalData,
     },
     fusion: fusion || undefined,
+    fusionSet: fusionSet || undefined,
   };
 };
-

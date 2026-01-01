@@ -85,6 +85,33 @@
   font-weight: 300;
 }
 
+.interpretation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.interpretation-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.interpretation-section-label {
+  font-size: 0.8125rem;
+  color: #d4af37;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.interpretation-section-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+  font-weight: 300;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .interpretation-arcane-name {
@@ -92,6 +119,15 @@
   }
 
   .interpretation-description {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+  }
+
+  .interpretation-content {
+    gap: 1rem;
+  }
+
+  .interpretation-section-text {
     font-size: 0.9375rem;
     line-height: 1.7;
   }

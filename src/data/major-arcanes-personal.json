@@ -1,134 +1,288 @@
 [
-    {
-      "number": 1,
-      "name": "Le Bateleur",
-      "keywords": ["nouveau départ", "initiative personnelle", "potentiel"],
-      "description": "Année personnelle de commencement. Tu entres dans un nouveau cycle où tout est possible, à condition d’oser faire le premier pas. Cette période invite à l’expérimentation, à l’apprentissage et à la prise d’initiative, même sans garanties."
-    },
-    {
-      "number": 2,
-      "name": "La Papesse",
-      "keywords": ["intériorité", "intuition", "patience"],
-      "description": "Année personnelle tournée vers l’introspection. Tu es invitée à ralentir, à observer et à écouter ton intuition. Les réponses viennent moins de l’action que de la compréhension intérieure et du temps accordé à toi-même."
-    },
-    {
-      "number": 3,
-      "name": "L’Impératrice",
-      "keywords": ["créativité", "expression", "épanouissement"],
-      "description": "Année personnelle d’expression et de croissance. Tes idées, tes émotions et tes projets cherchent à s’exprimer. C’est une période favorable à la création, à la communication et à l’affirmation de soi."
-    },
-    {
-      "number": 4,
-      "name": "L’Empereur",
-      "keywords": ["structure", "stabilité", "responsabilité"],
-      "description": "Année personnelle de structuration. Tu es appelée à poser des bases solides, à organiser ta vie et à assumer pleinement tes responsabilités. La stabilité se construit par des choix clairs et assumés."
-    },
-    {
-      "number": 5,
-      "name": "Le Pape",
-      "keywords": ["valeurs", "apprentissage", "guidance"],
-      "description": "Année personnelle de réflexion sur le sens et les valeurs. Tu peux ressentir le besoin d’apprendre, de transmettre ou de chercher des repères solides. Les échanges et les conseils jouent un rôle important."
-    },
-    {
-      "number": 6,
-      "name": "L’Amoureux",
-      "keywords": ["choix personnels", "relations", "engagement"],
-      "description": "Année personnelle marquée par des choix importants. Les relations et les engagements prennent une place centrale. Tu es invitée à choisir ce qui est aligné avec ton cœur et tes valeurs profondes."
-    },
-    {
-      "number": 7,
-      "name": "Le Chariot",
-      "keywords": ["détermination", "avancée", "affirmation"],
-      "description": "Année personnelle de mouvement et de conquête. Tu ressens un élan pour avancer, prendre ta place et aller vers tes objectifs. La réussite dépend de ta capacité à garder le cap."
-    },
-    {
-      "number": 8,
-      "name": "La Justice",
-      "keywords": ["équilibre personnel", "vérité", "responsabilité"],
-      "description": "Année personnelle de clarification. Tu es invitée à faire des choix justes, à assumer tes décisions et à rétablir l’équilibre dans ta vie. La lucidité est essentielle."
-    },
-    {
-      "number": 9,
-      "name": "L’Hermite",
-      "keywords": ["bilan", "retrait", "sagesse intérieure"],
-      "description": "Année personnelle de recul et de réflexion. Tu peux ressentir le besoin de solitude ou de lenteur pour faire le point. Cette période favorise la sagesse et la compréhension profonde."
-    },
-    {
-      "number": 10,
-      "name": "La Roue de Fortune",
-      "keywords": ["changement personnel", "cycle", "adaptation"],
-      "description": "Année personnelle de changements. Des événements imprévus peuvent modifier ta trajectoire. Cette période demande souplesse et confiance dans le mouvement naturel de la vie."
-    },
-    {
-      "number": 11,
-      "name": "La Force",
-      "keywords": ["courage intérieur", "maîtrise émotionnelle", "confiance"],
-      "description": "Année personnelle de dépassement de soi. Tu es invitée à affronter les défis avec calme, patience et confiance. La force véritable vient de l’équilibre intérieur."
-    },
-    {
-      "number": 12,
-      "name": "Le Pendu",
-      "keywords": ["pause", "lâcher-prise", "nouvelle perspective"],
-      "description": "Année personnelle de suspension. Certaines situations demandent du temps ou un changement de regard. Le lâcher-prise permet une compréhension plus profonde avant d’avancer."
-    },
-    {
-      "number": 13,
-      "name": "L’Arcane sans Nom",
-      "keywords": ["transformation personnelle", "fin de cycle", "renaissance"],
-      "description": "Année personnelle de transformation profonde. Tu es amenée à laisser derrière toi ce qui n’a plus de sens afin de faire place à un renouveau nécessaire."
-    },
-    {
-      "number": 14,
-      "name": "Tempérance",
-      "keywords": ["équilibre intérieur", "harmonie", "adaptation"],
-      "description": "Année personnelle d’harmonisation. Tu apprends à ajuster, à doser et à avancer avec douceur. Les extrêmes s’apaisent au profit d’un meilleur équilibre."
-    },
-    {
-      "number": 15,
-      "name": "Le Diable",
-      "keywords": ["attachements", "désirs", "libération personnelle"],
-      "description": "Année personnelle de confrontation avec les dépendances et les schémas répétitifs. Cette période invite à reprendre conscience de ta liberté et à te détacher de ce qui te limite."
-    },
-    {
-      "number": 16,
-      "name": "La Maison Dieu",
-      "keywords": ["rupture personnelle", "révélation", "libération"],
-      "description": "Année personnelle de bouleversements. Des changements soudains peuvent remettre en question certaines certitudes, mais ils ouvrent la voie à une reconstruction plus authentique."
-    },
-    {
-      "number": 17,
-      "name": "L’Étoile",
-      "keywords": ["espoir personnel", "guérison", "confiance"],
-      "description": "Année personnelle de douceur et de renouveau. Tu retrouves foi en toi et en l’avenir. Cette période favorise la guérison émotionnelle et l’inspiration."
-    },
-    {
-      "number": 18,
-      "name": "La Lune",
-      "keywords": ["émotions profondes", "intuition", "sensibilité"],
-      "description": "Année personnelle très sensible. Les émotions et l’inconscient prennent de l’importance. Il est essentiel d’écouter ton intuition et d’accueillir ce qui remonte."
-    },
-    {
-      "number": 19,
-      "name": "Le Soleil",
-      "keywords": ["épanouissement personnel", "joie", "réussite"],
-      "description": "Année personnelle lumineuse. Elle apporte confiance, vitalité et reconnaissance. Les relations s’éclaircissent et tu peux pleinement rayonner."
-    },
-    {
-      "number": 20,
-      "name": "Le Jugement",
-      "keywords": ["réveil personnel", "prise de conscience", "renouveau"],
-      "description": "Année personnelle d’appel intérieur. Tu prends conscience de ce qui doit changer et tu es invitée à assumer une nouvelle version de toi-même."
-    },
-    {
-      "number": 21,
-      "name": "Le Monde",
-      "keywords": ["accomplissement personnel", "aboutissement", "complétude"],
-      "description": "Année personnelle d’aboutissement. Un cycle se termine avec un sentiment de cohérence et de réalisation. Tu récoltes le fruit de ton chemin parcouru."
-    },
-    {
-      "number": 22,
-      "name": "Le Mat",
-      "keywords": ["liberté personnelle", "nouveau cycle", "exploration"],
-      "description": "Année personnelle hors normes. Elle invite à lâcher les cadres habituels, à suivre ton intuition et à explorer de nouvelles directions sans certitudes, mais avec confiance."
-    }
+  {
+    "number": 1,
+    "name": "Le Bateleur",
+    "keywords": ["initiative", "élan", "apprentissage"],
+    "intro":
+      "Ton arcane personnel t’invite à agir et à initier.",
+    "experience":
+      "Tu ressens un besoin de commencer, de tester, d’explorer de nouvelles pistes, même sans tout maîtriser.",
+    "challenge":
+      "Le défi est d’éviter la dispersion ou l’impatience.",
+    "outcome":
+      "Bien utilisé, cet arcane te permet d’apprendre vite et de poser les bases de nouveaux projets."
+  },
+  {
+    "number": 2,
+    "name": "La Papesse",
+    "keywords": ["intuition", "observation", "intériorité"],
+    "intro":
+      "Ton arcane personnel t’invite à écouter davantage ton monde intérieur.",
+    "experience":
+      "Tu analyses, observes et ressens plus que tu n’agis. Les réponses viennent par l’intuition.",
+    "challenge":
+      "Le défi est de ne pas rester bloquée dans l’attente ou le doute.",
+    "outcome":
+      "Bien vécu, cet arcane développe une grande clarté intérieure."
+  },
+  {
+    "number": 3,
+    "name": "L’Impératrice",
+    "keywords": ["expression", "créativité", "affirmation"],
+    "intro":
+      "Ton arcane personnel favorise l’expression et la communication.",
+    "experience":
+      "Tu as envie de créer, de partager, de faire entendre ta voix.",
+    "challenge":
+      "Le défi est de ne pas te disperser ou trop en faire.",
+    "outcome":
+      "Bien vécu, cet arcane renforce ta confiance et ton rayonnement."
+  },
+  {
+    "number": 4,
+    "name": "L’Empereur",
+    "keywords": ["structure", "cadre", "autorité"],
+    "intro":
+      "Ton arcane personnel te pousse à organiser et sécuriser.",
+    "experience":
+      "Tu cherches à poser des bases solides et à garder le contrôle.",
+    "challenge":
+      "Le défi est d’éviter la rigidité excessive.",
+    "outcome":
+      "Bien vécu, cet arcane apporte stabilité et fiabilité."
+  },
+  {
+    "number": 5,
+    "name": "Le Pape",
+    "keywords": ["valeurs", "repères", "transmission"],
+    "intro":
+      "Ton arcane personnel t’invite à agir selon tes valeurs.",
+    "experience":
+      "Tu ressens le besoin de comprendre, d’apprendre ou de guider.",
+    "challenge":
+      "Le défi est de ne pas suivre aveuglément les règles.",
+    "outcome":
+      "Bien vécu, cet arcane permet d’incarner un sens profond."
+  },
+  {
+    "number": 6,
+    "name": "L’Amoureux",
+    "keywords": ["choix", "relations", "alignement"],
+    "intro":
+      "Ton arcane personnel met l’accent sur les décisions affectives.",
+    "experience":
+      "Tu es souvent face à des choix importants impliquant le cœur.",
+    "challenge":
+      "Le défi est de ne pas choisir par peur.",
+    "outcome":
+      "Bien vécu, cet arcane favorise des décisions sincères."
+  },
+  {
+    "number": 7,
+    "name": "Le Chariot",
+    "keywords": ["volonté", "action", "avancée"],
+    "intro":
+      "Ton arcane personnel te pousse à avancer.",
+    "experience":
+      "Tu agis avec détermination pour atteindre tes objectifs.",
+    "challenge":
+      "Le défi est d’éviter l’entêtement.",
+    "outcome":
+      "Bien vécu, cet arcane permet des victoires concrètes."
+  },
+  {
+    "number": 8,
+    "name": "La Justice",
+    "keywords": ["équilibre", "lucidité", "responsabilité"],
+    "intro":
+      "Ton arcane personnel t’invite à agir avec justesse.",
+    "experience":
+      "Tu analyses, pèses le pour et le contre, cherches la vérité.",
+    "challenge":
+      "Le défi est l’auto-jugement excessif.",
+    "outcome":
+      "Bien vécu, cet arcane apporte clarté et cohérence."
+  },
+  {
+    "number": 9,
+    "name": "L’Hermite",
+    "keywords": ["recul", "réflexion", "sagesse"],
+    "intro":
+      "Ton arcane personnel favorise l’introspection.",
+    "experience":
+      "Tu ressens le besoin de ralentir et de comprendre en profondeur.",
+    "challenge":
+      "Le défi est l’isolement excessif.",
+    "outcome":
+      "Bien vécu, cet arcane développe une grande lucidité."
+  },
+  {
+    "number": 10,
+    "name": "La Roue de Fortune",
+    "keywords": ["adaptation", "mouvement", "changement"],
+    "intro":
+      "Ton arcane personnel t’invite à t’adapter.",
+    "experience":
+      "Tu vis des hauts et des bas qui demandent souplesse.",
+    "challenge":
+      "Le défi est la résistance au changement.",
+    "outcome":
+      "Bien vécu, cet arcane ouvre de nouvelles opportunités."
+  },
+  {
+    "number": 11,
+    "name": "La Force",
+    "keywords": ["maîtrise", "calme", "endurance"],
+    "intro":
+      "Ton arcane personnel parle de force intérieure.",
+    "experience":
+      "Tu affrontes les situations avec patience et courage.",
+    "challenge":
+      "Le défi est de refouler tes émotions.",
+    "outcome":
+      "Bien vécu, cet arcane renforce une confiance profonde."
+  },
+  {
+    "number": 12,
+    "name": "Le Pendu",
+    "keywords": ["lâcher-prise", "acceptation", "nouveau regard"],
+    "intro":
+      "Ton arcane personnel t’invite à lâcher prise.",
+    "experience":
+      "Tu peux ressentir une impression de suspension ou de blocage.",
+    "challenge":
+      "Le défi est d’accepter ce qui ne dépend pas de toi.",
+    "outcome":
+      "Bien vécu, cet arcane apporte une nouvelle vision."
+  },
+  {
+    "number": 13,
+    "name": "L’Arcane sans Nom",
+    "keywords": ["transformation", "fin", "renouveau"],
+    "intro":
+      "Ton arcane personnel indique une profonde mutation.",
+    "experience":
+      "Des changements radicaux transforment ta manière de vivre.",
+    "challenge":
+      "Le défi est de lâcher l’ancien.",
+    "outcome":
+      "Bien vécu, cet arcane permet une renaissance."
+  },
+  {
+    "number": 14,
+    "name": "Tempérance",
+    "keywords": ["équilibre", "douceur", "ajustement"],
+    "intro":
+      "Ton arcane personnel favorise l’harmonie.",
+    "experience":
+      "Tu avances par étapes, en cherchant la modération.",
+    "challenge":
+      "Le défi est la passivité.",
+    "outcome":
+      "Bien vécu, cet arcane apporte apaisement."
+  },
+  {
+    "number": 15,
+    "name": "Le Diable",
+    "keywords": ["désirs", "attachements", "prise de conscience"],
+    "intro":
+      "Ton arcane personnel met en lumière tes attachements.",
+    "experience":
+      "Tu es confrontée à tes dépendances ou excès.",
+    "challenge":
+      "Le défi est la perte de liberté.",
+    "outcome":
+      "Bien vécu, cet arcane permet de reprendre ton pouvoir."
+  },
+  {
+    "number": 16,
+    "name": "La Maison Dieu",
+    "keywords": ["rupture", "vérité", "reconstruction"],
+    "intro":
+      "Ton arcane personnel parle de choc libérateur.",
+    "experience":
+      "Des ruptures forcent un réalignement.",
+    "challenge":
+      "Le défi est d’accepter la perte.",
+    "outcome":
+      "Bien vécu, cet arcane permet une reconstruction sincère."
+  },
+  {
+    "number": 17,
+    "name": "L’Étoile",
+    "keywords": ["espoir", "confiance", "guérison"],
+    "intro":
+      "Ton arcane personnel apporte une énergie douce.",
+    "experience":
+      "Tu retrouves foi et confiance progressivement.",
+    "challenge":
+      "Le défi est de ne pas douter de ta valeur.",
+    "outcome":
+      "Bien vécu, cet arcane ouvre une phase sereine."
+  },
+  {
+    "number": 18,
+    "name": "La Lune",
+    "keywords": ["émotions", "sensibilité", "intuition"],
+    "intro":
+      "Ton arcane personnel amplifie ton monde émotionnel.",
+    "experience":
+      "Tu ressens intensément, parfois avec confusion.",
+    "challenge":
+      "Le défi est de ne pas te laisser envahir par la peur.",
+    "outcome":
+      "Bien vécu, cet arcane développe une grande intuition."
+  },
+  {
+    "number": 19,
+    "name": "Le Soleil",
+    "keywords": ["joie", "rayonnement", "confiance"],
+    "intro":
+      "Ton arcane personnel favorise l’épanouissement.",
+    "experience":
+      "Tu dégages une énergie positive et communicative.",
+    "challenge":
+      "Le défi est l’excès de confiance.",
+    "outcome":
+      "Bien vécu, cet arcane apporte succès et joie."
+  },
+  {
+    "number": 20,
+    "name": "Le Jugement",
+    "keywords": ["réveil", "appel", "décision"],
+    "intro":
+      "Ton arcane personnel annonce un tournant.",
+    "experience":
+      "Une prise de conscience pousse au changement.",
+    "challenge":
+      "Le défi est de répondre à cet appel.",
+    "outcome":
+      "Bien vécu, cet arcane ouvre un nouveau chapitre."
+  },
+  {
+    "number": 21,
+    "name": "Le Monde",
+    "keywords": ["accomplissement", "complétude", "harmonie"],
+    "intro":
+      "Ton arcane personnel parle d’aboutissement.",
+    "experience":
+      "Tu ressens un sentiment d’alignement global.",
+    "challenge":
+      "Le défi est de reconnaître ta réussite.",
+    "outcome":
+      "Bien vécu, cet arcane apporte une grande satisfaction."
+  },
+  {
+    "number": 22,
+    "name": "Le Mat",
+    "keywords": ["liberté", "élan", "exploration"],
+    "intro":
+      "Ton arcane personnel t’invite à suivre ton instinct.",
+    "experience":
+      "Tu ressens un fort besoin de nouveauté et de liberté.",
+    "challenge":
+      "Le défi est l’imprudence.",
+    "outcome":
+      "Bien vécu, cet arcane ouvre une aventure personnelle."
+  }
   ]

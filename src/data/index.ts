@@ -3,35 +3,71 @@ import majorArcanesPersonalData from "./major-arcanes-personal.json";
 import majorArcaneFusionData from "./major-arcane-fusion.json";
 
 /**
- * Interface pour un arcane majeur avec ses informations détaillées
+ * Interface pour un arcane majeur avec ses informations détaillées (année)
  */
-export interface MajorArcaneData {
+export interface MajorArcaneYearData {
   /** Numéro de l'arcane (1-22) */
   number: number;
   /** Nom de l'arcane */
   name: string;
   /** Mots-clés associés à l'arcane */
   keywords: string[];
-  /** Description de l'énergie de l'arcane */
-  description: string;
+  /** Introduction de l'énergie de l'arcane */
+  intro: string;
+  /** Expérience vécue pendant cette année */
+  experience: string;
+  /** Défi de cette année */
+  challenge: string;
+  /** Résultat si bien vécue */
+  outcome: string;
 }
 
 /**
- * Type pour la liste complète des arcanes majeurs
+ * Interface pour un arcane majeur avec ses informations détaillées (personnel)
  */
-export type MajorArcanesData = MajorArcaneData[];
+export interface MajorArcanePersonalData {
+  /** Numéro de l'arcane (1-22) */
+  number: number;
+  /** Nom de l'arcane */
+  name: string;
+  /** Mots-clés associés à l'arcane */
+  keywords: string[];
+  /** Introduction de l'énergie de l'arcane */
+  intro: string;
+  /** Expérience vécue pendant cette année */
+  experience: string;
+  /** Défi de cette année */
+  challenge: string;
+  /** Résultat si bien vécue */
+  outcome: string;
+}
+
+/**
+ * Type union pour les données d'arcanes (année ou personnel)
+ */
+export type MajorArcaneData = MajorArcaneYearData | MajorArcanePersonalData;
+
+/**
+ * Type pour la liste complète des arcanes majeurs (année)
+ */
+export type MajorArcanesYearData = MajorArcaneYearData[];
+
+/**
+ * Type pour la liste complète des arcanes majeurs (personnel)
+ */
+export type MajorArcanesPersonalData = MajorArcanePersonalData[];
 
 /**
  * Export des données typées pour les arcanes de l'année (collectif)
  */
-export const majorArcanesYear: MajorArcanesData =
-  majorArcanesYearData as MajorArcanesData;
+export const majorArcanesYear: MajorArcanesYearData =
+  majorArcanesYearData as MajorArcanesYearData;
 
 /**
  * Export des données typées pour les arcanes personnels
  */
-export const majorArcanesPersonal: MajorArcanesData =
-  majorArcanesPersonalData as MajorArcanesData;
+export const majorArcanesPersonal: MajorArcanesPersonalData =
+  majorArcanesPersonalData as MajorArcanesPersonalData;
 
 /**
  * Fonction helper pour obtenir les données d'un arcane de l'année par son numéro
@@ -40,7 +76,7 @@ export const majorArcanesPersonal: MajorArcanesData =
  */
 export const getYearArcaneData = (
   number: number
-): MajorArcaneData | undefined => {
+): MajorArcaneYearData | undefined => {
   return majorArcanesYear.find((arcane) => arcane.number === number);
 };
 
@@ -51,7 +87,7 @@ export const getYearArcaneData = (
  */
 export const getPersonalArcaneData = (
   number: number
-): MajorArcaneData | undefined => {
+): MajorArcanePersonalData | undefined => {
   return majorArcanesPersonal.find((arcane) => arcane.number === number);
 };
 
@@ -74,6 +110,8 @@ export const getArcaneData = (
  * Interface pour une description de fusion entre deux arcanes
  */
 export interface ArcaneFusionDescription {
+  /** Titre de la fusion */
+  title: string;
   /** Description de la fusion entre l'arcane collectif et personnel */
   description: string;
 }
@@ -90,15 +128,15 @@ export interface ArcaneFusionSet {
 
 /**
  * Type pour les données de fusion des arcanes
- * Clé = numéro de l'arcane collectif (année)
+ * Tableau contenant un objet avec les clés = numéro de l'arcane collectif (année)
  */
-export type MajorArcaneFusionData = Record<string, ArcaneFusionSet>;
+export type MajorArcaneFusionData = Array<Record<string, ArcaneFusionSet>>;
 
 /**
  * Export des données typées pour les fusions d'arcanes
  */
-export const majorArcaneFusion: MajorArcaneFusionData =
-  majorArcaneFusionData as MajorArcaneFusionData;
+export const majorArcaneFusion: Record<string, ArcaneFusionSet> =
+  (majorArcaneFusionData as MajorArcaneFusionData)[0] || {};
 
 /**
  * Fonction helper pour obtenir la description de fusion entre un arcane collectif et personnel

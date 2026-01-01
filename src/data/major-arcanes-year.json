@@ -1,134 +1,288 @@
 [
-    {
-      "number": 1,
-      "name": "Le Bateleur",
-      "keywords": ["début", "initiative", "potentiel", "création"],
-      "description": "Année de commencement et d’élan. Tout n’est pas encore défini, mais le potentiel est là. C’est le moment d’oser, de tester, d’apprendre en faisant. Cette année invite à prendre des initiatives, même imparfaites, car l’expérience compte plus que le résultat immédiat."
-    },
-    {
-      "number": 2,
-      "name": "La Papesse",
-      "keywords": ["intuition", "introspection", "savoir intérieur"],
-      "description": "Année tournée vers l’introspection et l’écoute intérieure. Les réponses ne viennent pas toujours de l’extérieur, mais du temps que l’on s’accorde pour observer, comprendre et ressentir. C’est une période idéale pour apprendre, réfléchir et préparer la suite en silence."
-    },
-    {
-      "number": 3,
-      "name": "L’Impératrice",
-      "keywords": ["créativité", "expression", "croissance"],
-      "description": "Année de créativité, d’expression et de croissance. Les idées prennent forme, les projets s’épanouissent et la communication est favorisée. Cette énergie invite à partager, créer et nourrir ce qui te tient à cœur."
-    },
-    {
-      "number": 4,
-      "name": "L’Empereur",
-      "keywords": ["structure", "stabilité", "responsabilité"],
-      "description": "Année de structure et de consolidation. Elle demande de poser des bases solides, de prendre des responsabilités et d’organiser sa vie avec clarté. C’est un temps pour construire durablement."
-    },
-    {
-      "number": 5,
-      "name": "Le Pape",
-      "keywords": ["transmission", "valeurs", "enseignement"],
-      "description": "Année de transmission et de sens. Elle invite à se reconnecter à ses valeurs, à apprendre auprès des autres ou à devenir soi-même une source de conseil et de guidance."
-    },
-    {
-      "number": 6,
-      "name": "L’Amoureux",
-      "keywords": ["choix", "relation", "engagement"],
-      "description": "Année de choix importants. Elle met en lumière les relations, les engagements et les décisions qui demandent d’aligner le cœur et la raison. Ce qui est choisi avec sincérité prend de l’importance."
-    },
-    {
-      "number": 7,
-      "name": "Le Chariot",
-      "keywords": ["action", "mouvement", "réussite"],
-      "description": "Année de mouvement et de progression. Elle favorise l’action, la détermination et l’avancée vers des objectifs clairs. La réussite dépend de la direction choisie."
-    },
-    {
-      "number": 8,
-      "name": "La Justice",
-      "keywords": ["équilibre", "vérité", "responsabilité"],
-      "description": "Année d’équilibre et de lucidité. Elle demande de faire des choix justes, d’assumer les conséquences de ses actes et de rétablir l’harmonie là où c’est nécessaire."
-    },
-    {
-      "number": 9,
-      "name": "L’Hermite",
-      "keywords": ["bilan", "sagesse", "réflexion"],
-      "description": "Année de ralentissement volontaire. Elle invite à prendre du recul, à faire le point et à chercher des réponses profondes. Une période propice à la maturation intérieure."
-    },
-    {
-      "number": 10,
-      "name": "La Roue de Fortune",
-      "keywords": ["changement", "cycle", "opportunité"],
-      "description": "Année de changements et de tournants. Les situations évoluent parfois rapidement et de manière imprévisible. Cette énergie rappelle que tout est cyclique et qu’il faut savoir s’adapter."
-    },
-    {
-      "number": 11,
-      "name": "La Force",
-      "keywords": ["courage", "maîtrise", "confiance"],
-      "description": "Année de maîtrise intérieure. Elle invite à faire preuve de patience, de courage et de douceur face aux défis. La véritable force vient de l’équilibre émotionnel."
-    },
-    {
-      "number": 12,
-      "name": "Le Pendu",
-      "keywords": ["pause", "lâcher-prise", "nouvelle vision"],
-      "description": "Année de pause et de changement de perspective. Certaines situations semblent bloquées, mais cette immobilité permet de voir les choses autrement avant d’avancer."
-    },
-    {
-      "number": 13,
-      "name": "L’Arcane sans Nom",
-      "keywords": ["transformation", "fin", "renaissance"],
-      "description": "Année de transformation profonde. Elle marque la fin de ce qui n’a plus lieu d’être afin de laisser place à un renouveau. Le changement est nécessaire pour évoluer."
-    },
-    {
-      "number": 14,
-      "name": "Tempérance",
-      "keywords": ["harmonie", "équilibre", "fluidité"],
-      "description": "Année d’harmonie et d’ajustement. Elle favorise la douceur, la coopération et la progression par petites étapes. Une période idéale pour retrouver l’équilibre."
-    },
-    {
-      "number": 15,
-      "name": "Le Diable",
-      "keywords": ["attachement", "désir", "libération"],
-      "description": "Année de confrontation avec les dépendances et les excès. Elle invite à prendre conscience de ce qui limite la liberté et à reprendre le pouvoir sur ses choix."
-    },
-    {
-      "number": 16,
-      "name": "La Maison Dieu",
-      "keywords": ["rupture", "révélation", "libération"],
-      "description": "Année de bouleversements soudains. Les structures fragiles s’effondrent pour permettre une reconstruction plus saine et plus authentique."
-    },
-    {
-      "number": 17,
-      "name": "L’Étoile",
-      "keywords": ["espoir", "inspiration", "renouveau"],
-      "description": "Année d’espoir et de douceur. Elle apporte une énergie de guérison, de confiance et de renouveau après une période plus difficile."
-    },
-    {
-      "number": 18,
-      "name": "La Lune",
-      "keywords": ["émotions", "intuition", "sensibilité"],
-      "description": "Année émotionnelle et intuitive. Elle invite à écouter ses ressentis, même lorsqu’ils sont flous, afin de mieux se comprendre."
-    },
-    {
-      "number": 19,
-      "name": "Le Soleil",
-      "keywords": ["joie", "succès", "épanouissement"],
-      "description": "Année de clarté et d’épanouissement. Elle favorise la joie, la réussite et les relations sincères. Les efforts passés portent leurs fruits."
-    },
-    {
-      "number": 20,
-      "name": "Le Jugement",
-      "keywords": ["réveil", "décision", "renaissance"],
-      "description": "Année de prise de conscience et de décisions importantes. Elle marque un appel intérieur à changer de direction ou à assumer pleinement qui l’on est."
-    },
-    {
-      "number": 21,
-      "name": "Le Monde",
-      "keywords": ["accomplissement", "réalisation", "complétude"],
-      "description": "Année d’accomplissement et de réussite globale. Elle symbolise la fin d’un cycle et le sentiment d’être à sa place."
-    },
-    {
-      "number": 22,
-      "name": "Le Mat",
-      "keywords": ["liberté", "nouveau départ", "aventure"],
-      "description": "Année de liberté et de nouveau départ. Elle invite à sortir des cadres, à explorer sans certitude et à faire confiance au chemin qui se présente."
-    }
+  {
+    "number": 1,
+    "name": "Le Bateleur",
+    "keywords": ["nouveau départ", "initiative", "expérimentation"],
+    "intro":
+      "Cette année marque un commencement. Elle donne envie d’essayer, de se lancer, même sans tout savoir.",
+    "experience":
+      "Les situations demandent de l’initiative et de la curiosité. Beaucoup ressentent un regain d’élan ou l’envie de démarrer quelque chose de nouveau.",
+    "challenge":
+      "Le défi est de ne pas attendre d’être parfaitement prêt ou de vouloir tout maîtriser dès le départ.",
+    "outcome":
+      "Bien vécue, cette année permet d’apprendre par l’expérience et de poser les premières pierres d’un nouveau cycle."
+  },
+  {
+    "number": 2,
+    "name": "La Papesse",
+    "keywords": ["intériorité", "observation", "patience"],
+    "intro":
+      "Cette année invite à ralentir et à écouter davantage ce qui se passe à l’intérieur.",
+    "experience":
+      "Les réponses viennent plus par la réflexion que par l’action. Un besoin de calme, d’apprentissage ou de retrait peut se faire sentir.",
+    "challenge":
+      "Le défi est d’accepter l’attente sans frustration ni sentiment d’inaction.",
+    "outcome":
+      "Bien vécue, cette année apporte compréhension profonde et clarté intérieure."
+  },
+  {
+    "number": 3,
+    "name": "L’Impératrice",
+    "keywords": ["créativité", "expression", "croissance"],
+    "intro":
+      "Cette année favorise l’expression et le développement personnel.",
+    "experience":
+      "Les idées circulent mieux, les projets prennent forme et les échanges sont facilités.",
+    "challenge":
+      "Le défi est d’éviter la dispersion et de canaliser son énergie.",
+    "outcome":
+      "Bien vécue, cette année permet de faire grandir des projets et de s’affirmer avec confiance."
+  },
+  {
+    "number": 4,
+    "name": "L’Empereur",
+    "keywords": ["structure", "stabilité", "responsabilité"],
+    "intro":
+      "Cette année demande de construire sur des bases solides.",
+    "experience":
+      "Les situations exigent organisation, rigueur et prise de responsabilités.",
+    "challenge":
+      "Le défi est de ne pas devenir trop rigide ou contrôlant.",
+    "outcome":
+      "Bien vécue, cette année apporte sécurité et stabilité durable."
+  },
+  {
+    "number": 5,
+    "name": "Le Pape",
+    "keywords": ["valeurs", "sens", "transmission"],
+    "intro":
+      "Cette année questionne le sens donné aux actions et aux choix.",
+    "experience":
+      "Un besoin de repères, d’apprentissage ou de guidance se fait sentir.",
+    "challenge":
+      "Le défi est de ne pas suivre des règles qui ne résonnent plus.",
+    "outcome":
+      "Bien vécue, cette année permet d’aligner ses choix avec ses valeurs profondes."
+  },
+  {
+    "number": 6,
+    "name": "L’Amoureux",
+    "keywords": ["choix", "relations", "engagement"],
+    "intro":
+      "Cette année met en lumière des décisions importantes.",
+    "experience":
+      "Les relations et les engagements prennent une place centrale.",
+    "challenge":
+      "Le défi est de choisir avec sincérité plutôt que par peur ou pression.",
+    "outcome":
+      "Bien vécue, cette année permet des décisions alignées avec le cœur."
+  },
+  {
+    "number": 7,
+    "name": "Le Chariot",
+    "keywords": ["action", "progression", "détermination"],
+    "intro":
+      "Cette année pousse à avancer et à se mettre en mouvement.",
+    "experience":
+      "Les projets demandent engagement et direction claire.",
+    "challenge":
+      "Le défi est d’éviter la précipitation.",
+    "outcome":
+      "Bien vécue, cette année permet de franchir des étapes importantes."
+  },
+  {
+    "number": 8,
+    "name": "La Justice",
+    "keywords": ["équilibre", "vérité", "responsabilité"],
+    "intro":
+      "Cette année demande des choix justes et conscients.",
+    "experience":
+      "Les conséquences des décisions passées deviennent visibles.",
+    "challenge":
+      "Le défi est d’être honnête avec soi-même.",
+    "outcome":
+      "Bien vécue, cette année apporte clarté et cohérence."
+  },
+  {
+    "number": 9,
+    "name": "L’Hermite",
+    "keywords": ["ralentissement", "introspection", "clarification"],
+    "intro":
+      "Cette année invite à ralentir et à faire le point.",
+    "experience":
+      "Un besoin de recul, de solitude ou de simplicité se manifeste.",
+    "challenge":
+      "Le défi est d’accepter la lenteur sans la vivre comme un échec.",
+    "outcome":
+      "Bien vécue, cette année prépare une direction plus juste."
+  },
+  {
+    "number": 10,
+    "name": "La Roue de Fortune",
+    "keywords": ["changement", "imprévu", "adaptation"],
+    "intro":
+      "Cette année est marquée par le mouvement et les retournements de situation.",
+    "experience":
+      "Les événements évoluent rapidement, parfois sans prévenir.",
+    "challenge":
+      "Le défi est de lâcher le contrôle et de s’adapter.",
+    "outcome":
+      "Bien vécue, cette année ouvre des opportunités inattendues."
+  },
+  {
+    "number": 11,
+    "name": "La Force",
+    "keywords": ["maîtrise", "courage", "stabilité émotionnelle"],
+    "intro":
+      "Cette année demande calme et solidité intérieure.",
+    "experience":
+      "Les situations peuvent être intenses émotionnellement.",
+    "challenge":
+      "Le défi est de ne pas réagir impulsivement.",
+    "outcome":
+      "Bien vécue, cette année renforce la confiance en soi."
+  },
+  {
+    "number": 12,
+    "name": "Le Pendu",
+    "keywords": ["pause", "lâcher-prise", "nouveau regard"],
+    "intro":
+      "Cette année peut donner un sentiment de blocage.",
+    "experience":
+      "Certaines situations demandent d’être acceptées plutôt que combattues.",
+    "challenge":
+      "Le défi est d’abandonner le besoin de contrôle.",
+    "outcome":
+      "Bien vécue, cette année apporte une nouvelle compréhension."
+  },
+  {
+    "number": 13,
+    "name": "L’Arcane sans Nom",
+    "keywords": ["fin", "transformation", "renaissance"],
+    "intro":
+      "Cette année marque une transformation profonde.",
+    "experience":
+      "Des fins nécessaires permettent un renouveau.",
+    "challenge":
+      "Le défi est d’accepter de laisser partir.",
+    "outcome":
+      "Bien vécue, cette année ouvre un nouveau cycle."
+  },
+  {
+    "number": 14,
+    "name": "Tempérance",
+    "keywords": ["équilibre", "patience", "harmonie"],
+    "intro":
+      "Cette année invite à avancer avec douceur.",
+    "experience":
+      "Les choses évoluent lentement mais sûrement.",
+    "challenge":
+      "Le défi est d’éviter les excès.",
+    "outcome":
+      "Bien vécue, cette année apporte apaisement et stabilité."
+  },
+  {
+    "number": 15,
+    "name": "Le Diable",
+    "keywords": ["attachements", "désirs", "libération"],
+    "intro":
+      "Cette année met en lumière ce qui enferme ou limite.",
+    "experience":
+      "Des dépendances ou excès deviennent visibles.",
+    "challenge":
+      "Le défi est de reprendre son pouvoir personnel.",
+    "outcome":
+      "Bien vécue, cette année permet une vraie libération."
+  },
+  {
+    "number": 16,
+    "name": "La Maison Dieu",
+    "keywords": ["rupture", "choc", "reconstruction"],
+    "intro":
+      "Cette année peut provoquer des bouleversements soudains.",
+    "experience":
+      "Ce qui est fragile s’effondre.",
+    "challenge":
+      "Le défi est d’accepter l’inattendu.",
+    "outcome":
+      "Bien vécue, cette année permet une reconstruction plus saine."
+  },
+  {
+    "number": 17,
+    "name": "L’Étoile",
+    "keywords": ["espoir", "guérison", "renouveau"],
+    "intro":
+      "Cette année apporte un souffle d’espoir.",
+    "experience":
+      "La confiance revient progressivement.",
+    "challenge":
+      "Le défi est de croire à nouveau.",
+    "outcome":
+      "Bien vécue, cette année ouvre une phase plus sereine."
+  },
+  {
+    "number": 18,
+    "name": "La Lune",
+    "keywords": ["émotions", "intuition", "incertitude"],
+    "intro":
+      "Cette année est marquée par le flou et l’émotionnel.",
+    "experience":
+      "Les ressentis sont intenses, parfois déroutants.",
+    "challenge":
+      "Le défi est de ne pas se laisser envahir par les peurs.",
+    "outcome":
+      "Bien vécue, cette année développe une meilleure écoute de soi."
+  },
+  {
+    "number": 19,
+    "name": "Le Soleil",
+    "keywords": ["joie", "réussite", "clarté"],
+    "intro":
+      "Cette année apporte lumière et vitalité.",
+    "experience":
+      "Les relations et projets s’épanouissent.",
+    "challenge":
+      "Le défi est de rester authentique.",
+    "outcome":
+      "Bien vécue, cette année apporte bonheur et réussite."
+  },
+  {
+    "number": 20,
+    "name": "Le Jugement",
+    "keywords": ["réveil", "décision", "renouveau"],
+    "intro":
+      "Cette année marque une prise de conscience importante.",
+    "experience":
+      "Un appel intérieur pousse au changement.",
+    "challenge":
+      "Le défi est d’oser répondre à cet appel.",
+    "outcome":
+      "Bien vécue, cette année permet un renouveau assumé."
+  },
+  {
+    "number": 21,
+    "name": "Le Monde",
+    "keywords": ["accomplissement", "complétude", "réalisation"],
+    "intro":
+      "Cette année marque la fin d’un cycle.",
+    "experience":
+      "Un sentiment de cohérence et de réussite s’installe.",
+    "challenge":
+      "Le défi est de reconnaître le chemin parcouru.",
+    "outcome":
+      "Bien vécue, cette année apporte un profond sentiment d’accomplissement."
+  },
+  {
+    "number": 22,
+    "name": "Le Mat",
+    "keywords": ["liberté", "aventure", "nouveau chemin"],
+    "intro":
+      "Cette année invite à sortir des cadres.",
+    "experience":
+      "Un besoin de liberté et d’exploration se fait sentir.",
+    "challenge":
+      "Le défi est d’accepter l’inconnu.",
+    "outcome":
+      "Bien vécue, cette année ouvre une aventure personnelle riche."
+  }
   ]
